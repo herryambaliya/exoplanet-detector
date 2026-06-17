@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+
+# Large data and model files -- never commit these, only code
+*.fits
+*.npy
+*.h5
+
+# Keep folder structure even though files are ignored
+!.gitkeep
+.ipynb_checkpoints/
