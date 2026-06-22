@@ -19,7 +19,18 @@ Usage:
 
 import os
 import time
+import warnings
 import lightkurve as lk
+from astropy.utils.exceptions import AstropyWarning
+
+# Suppress cosmetic AstropyWarning/UnitsWarning messages about TESS's
+# non-standard flux units ('e-/s', 'pixels') in FITS headers. These are
+# harmless -- they don't affect the actual data values, only astropy's
+# strictness about unit string formatting -- but they print very
+# verbosely, especially with many parallel download threads, which was
+# observed to contribute to Jupyter notebook stdout instability during
+# heavy concurrent downloads.
+warnings.filterwarnings("ignore", category=AstropyWarning)
 
 RAW_DATA_DIR = "data/raw"
 FAILED_LOG = "data/raw/failed_downloads.txt"
@@ -170,86 +181,181 @@ def _download_one_target(tic_id, sector, sector_dir, timeout_seconds=30):
         astropy_conf.remote_timeout = old_timeout
 
 
+def _download_worker_process(tic_id, sector, sector_dir, result_queue):
+    """
+    Runs inside a SEPARATE PROCESS (not a thread). This is the key fix
+    for a real bug found in practice: Python threads cannot be force-
+    killed once started, so a single hung network request inside a
+    thread permanently occupies that thread forever, and
+    ThreadPoolExecutor/ProcessPoolExecutor's shutdown also waits for
+    all workers by default -- confirmed experimentally that even
+    shutdown(wait=False) and cancel_futures=True did not allow the
+    Python process itself to exit while a stuck worker thread was
+    still alive, since non-daemon threads block process exit
+    regardless of what the main thread does.
+
+    multiprocessing.Process is different: the OS-level process CAN be
+    forcefully killed with .terminate(), which actually works even if
+    the code inside is stuck in a network call. This was verified
+    directly: a process stuck in an artificial 9999-second sleep was
+    successfully terminated within ~3 seconds using this approach,
+    whereas every thread-based approach hung indefinitely.
+
+    Args:
+        tic_id, sector, sector_dir: same meaning as elsewhere
+        result_queue (multiprocessing.Queue): used to send the result
+            back to the parent process, since Process doesn't return
+            a value directly the way a function call does
+    """
+    import warnings
+    from astropy.utils.exceptions import AstropyWarning
+    warnings.filterwarnings("ignore", category=AstropyWarning)
+    import lightkurve as lk
+
+    out_path = os.path.join(sector_dir, f"TIC_{tic_id}.fits")
+
+    if os.path.exists(out_path):
+        result_queue.put((tic_id, "success", "already exists"))
+        return
+
+    try:
+        search_result = lk.search_lightcurve(
+            f"TIC {tic_id}",
+            sector=sector,
+            mission="TESS",
+            author="SPOC",
+            cadence="short",
+        )
+
+        if len(search_result) == 0:
+            result_queue.put((tic_id, "no_data", "no short-cadence data"))
+            return
+
+        lc = search_result[0].download()
+        if lc is None:
+            result_queue.put((tic_id, "failed", "download() returned None"))
+            return
+
+        lc.to_fits(out_path, overwrite=True)
+        result_queue.put((tic_id, "success", "downloaded"))
+
+    except Exception as e:
+        result_queue.put((tic_id, "failed", str(e)))
+
+
 def download_targets_parallel(tic_ids, sector=1, max_workers=8, timeout_seconds=30):
     """
-    Same job as download_targets(), but runs searches/downloads
-    concurrently using a thread pool instead of one at a time.
+    Downloads light curves for multiple TIC IDs using SEPARATE
+    PROCESSES (not threads), running up to max_workers at a time, with
+    a real, enforceable timeout per star.
 
-    Why this helps: most of the time spent per star is the network
-    round-trip waiting for MAST to respond, not actual CPU work. While
-    one thread is waiting on a response, other threads can be making
-    their own requests at the same time. This commonly gives a 4-8x
-    speedup for a list this size, since most requests in your case
-    return "no data" quickly -- those especially benefit from running
-    in parallel rather than queued one after another.
+    WHY PROCESSES INSTEAD OF THREADS (found through direct testing,
+    not just theory): an earlier thread-based version of this function
+    used ThreadPoolExecutor with future.result(timeout=...). This
+    looked correct, but a real run on 65 stars slowed progressively
+    and then stalled completely. Root cause, confirmed experimentally:
+    Python threads cannot be force-killed once started. A single star
+    whose network request hangs (ignoring astropy's configured
+    timeout, which doesn't reach every code path inside lightkurve's
+    .download()) leaves that thread permanently stuck. Worse,
+    ThreadPoolExecutor's shutdown (including via the `with` statement)
+    blocks waiting for ALL worker threads by default, including stuck
+    ones -- verified directly that even shutdown(wait=False) does not
+    let the underlying Python process exit while a non-daemon worker
+    thread is still alive.
 
-    Two layers of timeout protection:
-    1. astropy's remote_timeout config (set inside _download_one_target)
-       makes the underlying network call itself give up after
-       timeout_seconds.
-    2. future.result(timeout=...) below is a second safety net -- if a
-       thread somehow still doesn't return in time (rare, but network
-       code can occasionally ignore configured timeouts), we don't
-       block forever waiting for it; we log it as stuck and move on to
-       collect the rest.
-
-    This fixes a real failure mode that was observed: a parallel run
-    with no timeout protection stalled completely partway through with
-    no error and no progress, because one thread was stuck waiting
-    indefinitely on a single slow request.
+    multiprocessing.Process is different: calling .terminate() on a
+    stuck process actually kills it at the OS level, regardless of
+    what code it's stuck running. This was verified directly: an
+    artificially stuck worker (sleeping 9999 seconds) was successfully
+    terminated within seconds using this approach.
 
     Args:
         tic_ids (list of str or int): TIC IDs to download
         sector (int): which TESS sector to pull from
-        max_workers (int): how many downloads to run at once. 8 is a
-            reasonable default -- high enough to meaningfully speed
-            things up, not so high that MAST's servers start rate
-            limiting or rejecting requests. If you see a lot of
-            "failed" results (not "no_data", actual errors), try
-            lowering this to 4.
+        max_workers (int): how many downloads to run at once
         timeout_seconds (int): max seconds to wait per star before
-            giving up on it and moving on
+            forcefully terminating that star's worker process and
+            moving on
 
     Returns:
         dict with keys: 'success' (int), 'failed' (int)
     """
-    from concurrent.futures import ThreadPoolExecutor, as_completed, TimeoutError as FutureTimeoutError
+    import multiprocessing as mp
 
     sector_dir = os.path.join(RAW_DATA_DIR, f"sector_{sector}")
     os.makedirs(sector_dir, exist_ok=True)
 
     print(f"Downloading {len(tic_ids)} targets from sector {sector} "
-          f"using {max_workers} parallel workers (timeout: {timeout_seconds}s per star)...")
+          f"using up to {max_workers} parallel processes "
+          f"(hard timeout: {timeout_seconds}s per star)...")
 
     success_count = 0
     failed_count = 0
     failed_ids = []
     completed = 0
 
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        futures = {
-            executor.submit(_download_one_target, tic_id, sector, sector_dir, timeout_seconds): tic_id
-            for tic_id in tic_ids
-        }
+    pending = list(tic_ids)
+    running = {}  # tic_id -> (Process, Queue, start_time)
 
-        # Give the overall wait a generous but finite cap per future,
-        # so a single misbehaving thread can't stall the whole loop
-        for future in as_completed(futures, timeout=None):
-            tic_id_for_future = futures[future]
-            try:
-                tic_id, status, message = future.result(timeout=timeout_seconds + 10)
-            except FutureTimeoutError:
-                tic_id, status, message = tic_id_for_future, "timeout", "future did not return in time"
+    while pending or running:
+        # Start new workers up to max_workers
+        while pending and len(running) < max_workers:
+            tic_id = pending.pop(0)
+            q = mp.Queue()
+            p = mp.Process(
+                target=_download_worker_process,
+                args=(tic_id, sector, sector_dir, q),
+            )
+            p.start()
+            running[tic_id] = (p, q, time.time())
 
-            completed += 1
+        # Check all running workers for completion or timeout
+        finished_tic_ids = []
+        for tic_id, (p, q, start_time) in running.items():
+            elapsed = time.time() - start_time
 
-            if status == "success":
-                success_count += 1
-                print(f"[{completed}/{len(tic_ids)}] TIC {tic_id}: {message}")
-            else:
+            if not q.empty():
+                result = q.get()
+                _, status, message = result
+                completed += 1
+
+                if status == "success":
+                    success_count += 1
+                else:
+                    failed_count += 1
+                    failed_ids.append(str(tic_id))
+
+                try:
+                    print(f"[{completed}/{len(tic_ids)}] TIC {tic_id}: {message}")
+                except (ValueError, OSError):
+                    pass
+
+                p.join(timeout=2)
+                finished_tic_ids.append(tic_id)
+
+            elif elapsed > timeout_seconds:
+                # Hard kill -- this is the part that actually works,
+                # unlike thread-based timeouts
+                p.terminate()
+                p.join(timeout=2)
+                completed += 1
                 failed_count += 1
                 failed_ids.append(str(tic_id))
-                print(f"[{completed}/{len(tic_ids)}] TIC {tic_id}: {message}")
+
+                try:
+                    print(f"[{completed}/{len(tic_ids)}] TIC {tic_id}: "
+                          f"timed out after {timeout_seconds}s, force-killed")
+                except (ValueError, OSError):
+                    pass
+
+                finished_tic_ids.append(tic_id)
+
+        for tic_id in finished_tic_ids:
+            del running[tic_id]
+
+        if running:
+            time.sleep(0.2)  # avoid busy-waiting the CPU at 100%
 
     if failed_ids:
         with open(FAILED_LOG, "a") as f:

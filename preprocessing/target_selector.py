@@ -61,6 +61,127 @@ def _open_catalog(filepath):
     return open(filepath, "r")
 
 
+def get_real_sector_targets(sector, dec_min=None, dec_max=None, num_targets=700):
+    """
+    Queries MAST directly for the ACTUAL stars observed at 2-minute
+    cadence in a given sector -- rather than guessing from a static
+    catalog filtered by brightness alone.
+
+    Why this exists, and why it's a better approach than
+    filter_catalog(): TESS's real 2-min target selection is driven by
+    a specific scientific ranking (the Candidate Target List, CTL) that
+    favors small, cool, nearby dwarf stars -- NOT simply "any bright
+    star." Filtering a general TIC catalog by Tmag alone (what
+    filter_catalog() does) can select many stars that pass the
+    brightness cut but were never actually chosen for 2-min cadence,
+    because they're giants, too far away, or otherwise not prioritized.
+    This was confirmed in practice: two different catalog files, picked
+    for two different declination bands, both gave low real hit rates
+    (~6-13%) when their Tmag-filtered targets were checked against
+    actual sector observations.
+
+    This function flips the approach: instead of filtering a catalog
+    and hoping it overlaps with what TESS observed, it asks MAST
+    directly "what did you actually observe at 2-min cadence in this
+    sector," which guarantees every returned TIC ID has real data
+    available -- a 100% hit rate by construction, rather than a
+    filtered guess.
+
+    Args:
+        sector (int): which TESS sector to query
+        dec_min, dec_max (float or None): optional declination range
+            in degrees to restrict results to (e.g. -90, -88). If
+            None, returns targets across the whole sector.
+        num_targets (int): cap on how many results to return
+
+    Returns:
+        list of dict, each with keys: TIC_ID, ra, dec
+    """
+    from astroquery.mast import Observations
+
+    print(f"Querying MAST for real 2-minute cadence observations in sector {sector}...")
+
+    obs = Observations.query_criteria(
+        obs_collection="TESS",
+        dataproduct_type="timeseries",
+        sequence_number=sector,
+    )
+
+    if len(obs) == 0:
+        print(f"No observations found for sector {sector}. Check the sector "
+              f"number is valid and has been observed/released yet.")
+        return []
+
+    print(f"MAST returned {len(obs)} total timeseries products for this sector.")
+
+    results = []
+    seen_tic_ids = set()
+
+    for row in obs:
+        try:
+            target_name = str(row["target_name"])
+            dec = float(row["s_dec"])
+            ra = float(row["s_ra"])
+
+            if dec_min is not None and dec < dec_min:
+                continue
+            if dec_max is not None and dec > dec_max:
+                continue
+
+            if target_name in seen_tic_ids:
+                continue
+
+            seen_tic_ids.add(target_name)
+            results.append({"TIC_ID": target_name, "ra": ra, "dec": dec})
+
+            if len(results) >= num_targets:
+                break
+
+        except (KeyError, ValueError, TypeError):
+            continue
+
+    print(f"Selected {len(results)} confirmed real targets "
+          f"{'(within declination filter)' if dec_min is not None else ''}.")
+
+    if len(results) == 0:
+        print("WARNING: No targets matched. If using a declination filter, "
+              "try widening dec_min/dec_max, or remove the filter to see "
+              "the full sector's real targets.")
+
+    return results
+
+
+def get_known_planet_anchors():
+    """
+    Returns a small list of TIC IDs for CONFIRMED exoplanets, verified
+    against published literature, that fall within or near this
+    project's declination band and were observed in sectors 12/13.
+
+    Why this exists: searching unlabeled stars at random has a real but
+    low chance of containing a detectable planet (~0.5-1% of stars
+    typically host one detectable via transit). Mixing in a small
+    number of KNOWN, CONFIRMED planet hosts guarantees at least one
+    true positive to validate the pipeline against, regardless of what
+    the random search turns up.
+
+    Verified entries:
+        TIC 383390264 (HD 110082 / TOI-1098): confirmed sub-Neptune,
+        period 10.1827 days, radius 3.2 Earth radii. Declination
+        -88:07:15.72 -- inside this project's catalog band. Observed
+        in Sectors 12 and 13 (Tofflemire et al. 2021, arXiv:2102.06066).
+        This is the anchor star referenced throughout this project's
+        development for pipeline validation.
+
+    Returns:
+        list of dict, same shape as filter_catalog() output, so it can
+        be directly combined with a random target list
+    """
+    return [
+        {"TIC_ID": "383390264", "ra": 192.5918, "dec": -88.1211, "Tmag": None,
+         "note": "HD 110082 / TOI-1098, confirmed planet, period=10.1827d"},
+    ]
+
+
 def filter_catalog(filepath, max_tmag=12.0, num_targets=300, object_type="STAR"):
     """
     Reads a raw TIC bulk catalog file and filters it down to a usable

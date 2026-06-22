@@ -214,19 +214,39 @@ def fold_all_candidates(verbose=True):
             print("No candidates were successfully folded.")
         return {"total_candidates": len(candidates), "successfully_folded": 0}
 
-    # Stack into one array: shape (N_candidates, 200)
+    # Build arrays for all three components M3 needs
     folded_matrix = np.stack(folded_arrays).astype(np.float32)
+    tic_id_array = np.array(successful_ids)
+
+    # Get the period for each successfully-folded candidate in the
+    # same order as the flux arrays -- needed by M3's request
+    candidates_lookup = {c["TIC_ID"]: c for c in candidates}
+    period_array = np.array(
+        [candidates_lookup[tic_id]["period"] for tic_id in successful_ids],
+        dtype=np.float32
+    )
 
     os.makedirs(RESULTS_DIR, exist_ok=True)
-    np.save(FOLDED_PATH, folded_matrix)
 
+    # Save in M3's requested bundled format: one dict with all three
+    # arrays so M3/M4 can load a single file and get everything
+    np.save(FOLDED_PATH, {
+        "tic_ids": tic_id_array,      # shape (N,), string array
+        "fluxes": folded_matrix,       # shape (N, 200), float32
+        "periods": period_array,       # shape (N,), float32, days
+    }, allow_pickle=True)
+
+    # Also keep candidate_ids.txt for backward compatibility with
+    # visualization.py's existing load logic -- both files stay in sync
     with open(CANDIDATE_IDS_PATH, "w") as f:
         for tic_id in successful_ids:
             f.write(f"{tic_id}\n")
 
     if verbose:
         print(f"\nDone. {len(successful_ids)}/{len(candidates)} candidates folded successfully.")
-        print(f"Saved folded array {folded_matrix.shape} to {FOLDED_PATH}")
+        print(f"Saved bundled dict (tic_ids, fluxes, periods) to {FOLDED_PATH}")
+        print(f"  fluxes shape: {folded_matrix.shape}")
+        print(f"  periods: {period_array}")
         print(f"Saved candidate IDs to {CANDIDATE_IDS_PATH}")
 
     return {"total_candidates": len(candidates), "successfully_folded": len(successful_ids)}
