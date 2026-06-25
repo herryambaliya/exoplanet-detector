@@ -1,0 +1,37 @@
+
+VALIDATION REPORT
+=================
+Date: 2026-06-25
+
+Model Performance:
+  Validation accuracy : 89.0%
+  Per-class accuracy  :
+    planet           : 95%
+    eclipsing_binary : 95%
+    blend            : 82%
+    other            : 84%
+
+Candidates from M2:
+  Total candidates    : 17
+  Planet candidates   : 1
+  EB candidates       : 6
+  Other               : 10
+
+Validation against NASA PS catalogue:
+  TESS confirmed planets in catalogue : 604
+  TIC IDs resolved                    : 28
+  Matches with our candidates         : 0
+
+Training Data:
+  Source 1: NASA Exoplanet Archive (confirmed TESS planets)
+  Source 2: Prsa+2022 TESS EB Catalogue (4578 EBs)
+  Source 3: Kepler KOI table (CONFIRMED + FALSE POSITIVE)
+  Source 4: Synthetic blends (physically simulated)
+  Total training samples: 2000 (500 per class, balanced)
+
+Classification Model:
+  Algorithm    : Random Forest (2000 trees)
+  Features     : 34 transit shape features
+  Training set : 1600 samples
+  Val set      : 400 samples
+  Accuracy     : 89.0%
