@@ -45,7 +45,7 @@ CANDIDATES_PATH = os.path.join(RESULTS_DIR, "candidates.csv")
 DEFAULT_POWER_THRESHOLD = 0.0005
 
 
-def run_bls(time, flux, min_period=0.5, max_period=13.0):
+def run_bls(time, flux, min_period=0.3, max_period=27.0):
     """
     Runs the BLS algorithm on one star's light curve to search for a
     repeating periodic dip.
@@ -53,32 +53,20 @@ def run_bls(time, flux, min_period=0.5, max_period=13.0):
     Args:
         time (np.ndarray): time values in days (BTJD), from M1's output
         flux (np.ndarray): normalized flux values, from M1's output
-        min_period (float): shortest orbital period to search for, in
-            days. 0.5 days is a reasonable lower bound -- very
-            short-period planets exist but are rarer and harder to
-            distinguish from noise/systematics.
-        max_period (float): longest orbital period to search for, in
-            days. 13.0 is chosen because TESS observes each region of
-            sky for about 27 days per sector -- you need to see at
-            least 2 full transits to confirm periodicity, so searching
-            much beyond half the observation baseline rarely finds
-            anything you can actually confirm.
+        min_period (float): shortest orbital period to search for, in days.
+        max_period (float): longest orbital period to search for, in days.
 
     Returns:
         dict with keys:
             period (float): best-fit orbital period in days
-            power (float): BLS power score -- higher means a stronger,
-                more convincing periodic signal
+            power (float): BLS power score
             depth (float): fractional flux drop during transit
-                (e.g. 0.01 = 1% dip)
             duration (float): transit duration in days
             t0 (float): time of the first transit center (BTJD)
+            alt_periods (list): alternative periods to try
     """
-    # BLS needs a duration grid to test, given as fractions of trial
-    # periods being searched. A wide range here lets BLS find both
-    # short, sharp transits and longer, shallower ones, rather than
-    # assuming one fixed duration shape up front.
-    duration_grid = np.linspace(0.01, 0.2, 10)
+    duration_grid = [0.01, 0.02, 0.05, 0.1, 0.15, 0.2]
+    duration_grid = [d for d in duration_grid if d < min_period * 0.5]
 
     model = BoxLeastSquares(time, flux)
     periodogram = model.autopower(
@@ -87,17 +75,29 @@ def run_bls(time, flux, min_period=0.5, max_period=13.0):
         maximum_period=max_period,
     )
 
-    best_idx = np.argmax(periodogram.power)
+    # Take top 3 periods instead of just best
+    top3_idx = np.argsort(periodogram.power)[::-1][:3]
+    best_idx = top3_idx[0]
+
+    best_p = float(periodogram.period[best_idx])
+
+    # Alternative periods including harmonics
+    alt_periods = [
+        best_p * 2,
+        best_p / 2,
+        float(periodogram.period[top3_idx[1]]) if len(top3_idx) > 1 else best_p,
+        float(periodogram.period[top3_idx[2]]) if len(top3_idx) > 2 else best_p,
+    ]
 
     return {
-        "period": float(periodogram.period[best_idx]),
-        "power": float(periodogram.power[best_idx]),
-        "depth": float(periodogram.depth[best_idx]),
-        "duration": float(periodogram.duration[best_idx]),
-        "t0": float(periodogram.transit_time[best_idx]),
+        "period"     : best_p,
+        "power"      : float(periodogram.power[best_idx]),
+        "depth"      : float(periodogram.depth[best_idx]),
+        "duration"   : float(periodogram.duration[best_idx]),
+        "t0"         : float(periodogram.transit_time[best_idx]),
+        "alt_periods": alt_periods,
     }
-
-
+    
 def is_candidate(bls_result, power_threshold=DEFAULT_POWER_THRESHOLD):
     """
     Decides whether a star's BLS result is strong enough to flag as a
@@ -214,9 +214,13 @@ def run_bls_all(power_threshold=DEFAULT_POWER_THRESHOLD, verbose=True):
     # Save candidates to the shared results file every other module reads
     with open(CANDIDATES_PATH, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["TIC_ID", "period_days", "power", "depth", "duration_days", "t0"])
+        writer.writerow(["TIC_ID", "period_days", "power", "depth", "duration_days", "t0", "alt_periods"])
         for tic_id, r in candidates:
-            writer.writerow([tic_id, r["period"], r["power"], r["depth"], r["duration"], r["t0"]])
+            writer.writerow([
+                tic_id, r["period"], r["power"],
+                r["depth"], r["duration"], r["t0"],
+                str(r.get("alt_periods", []))
+            ])
 
     if verbose:
         print(f"\nDone. {len(candidates)} candidates out of {len(files)} stars.")

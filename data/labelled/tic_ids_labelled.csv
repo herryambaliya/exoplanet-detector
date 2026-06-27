@@ -1,0 +1,1089 @@
+TIC_ID,label,class_name,source,name,split
+283722336,0,planet,NASA_Exoplanet_Archive,HD 219134 b,train
+136916387,0,planet,NASA_Exoplanet_Archive,HD 136352 d,val
+261136679,0,planet,NASA_Exoplanet_Archive,pi Men c,train
+332064670,0,planet,NASA_Exoplanet_Archive,55 Cnc e,train
+1042868,0,planet,NASA_Exoplanet_Archive,HD 88986 b,train
+188768068,0,planet,NASA_Exoplanet_Archive,HD 158259 b,val
+178155732,0,planet,NASA_Exoplanet_Archive,HR 858 d,test
+130181866,0,planet,NASA_Exoplanet_Archive,HD 63433 c,train
+175193677,0,planet,NASA_Exoplanet_Archive,HD 73344 b,train
+157910432,0,planet,NASA_Exoplanet_Archive,WASP-189 b,train
+407966340,0,planet,NASA_Exoplanet_Archive,HD 25463 b,val
+87216634,0,planet,NASA_Exoplanet_Archive,TOI-5789 c,train
+21832928,0,planet,NASA_Exoplanet_Archive,TOI-2128 b,train
+397362481,0,planet,NASA_Exoplanet_Archive,HD 101581 c,val
+441420236,0,planet,NASA_Exoplanet_Archive,AU Mic c,test
+317548889,0,planet,NASA_Exoplanet_Archive,TOI-480 b,test
+256364928,0,planet,NASA_Exoplanet_Archive,HD 189733 b,test
+82308728,0,planet,NASA_Exoplanet_Archive,HD 97658 b,test
+279741379,0,planet,NASA_Exoplanet_Archive,GJ 143 b,train
+200723869,0,planet,NASA_Exoplanet_Archive,TOI-257 b,train
+394137592,0,planet,NASA_Exoplanet_Archive,HD 1397 b,train
+420814525,0,planet,NASA_Exoplanet_Archive,HD 209458 b,val
+436873727,0,planet,NASA_Exoplanet_Archive,TOI-4641 b,test
+55092869,0,planet,NASA_Exoplanet_Archive,KELT-11 b,test
+441462736,0,planet,NASA_Exoplanet_Archive,HD 221416 b,train
+22221375,0,planet,NASA_Exoplanet_Archive,HD 86226 c,train
+290348383,0,planet,NASA_Exoplanet_Archive,HD 207496 b,train
+403224672,0,planet,NASA_Exoplanet_Archive,HD 213885 b,train
+91987762,0,planet,NASA_Exoplanet_Archive,TOI-1898 b,val
+271478281,0,planet,NASA_Exoplanet_Archive,TOI-2194 b,train
+263003176,0,planet,NASA_Exoplanet_Archive,HD 5278 b,train
+286923464,0,planet,NASA_Exoplanet_Archive,HD 118203 b,test
+392681545,0,planet,NASA_Exoplanet_Archive,TOI-6054.01,train
+69679391,0,planet,NASA_Exoplanet_Archive,KELT-20 b,train
+16740101,0,planet,NASA_Exoplanet_Archive,KELT-9 b,test
+264678534,0,planet,NASA_Exoplanet_Archive,HD 207897 b,test
+437011608,0,planet,NASA_Exoplanet_Archive,TOI-5082.01,test
+255930614,0,planet,NASA_Exoplanet_Archive,HD 149026 b,train
+302773669,0,planet,NASA_Exoplanet_Archive,HD 17156 b,train
+4897275,0,planet,NASA_Exoplanet_Archive,TOI-1774.01,val
+21535395,0,planet,NASA_Exoplanet_Archive,TOI-1776 b,train
+347332255,0,planet,NASA_Exoplanet_Archive,HD 110067 c,test
+359271092,0,planet,NASA_Exoplanet_Archive,GJ 341 b,test
+69747919,0,planet,NASA_Exoplanet_Archive,K2-167 b,test
+100990000,0,planet,NASA_Exoplanet_Archive,HD 22946 d,train
+464646604,0,planet,NASA_Exoplanet_Archive,HIP 94235 b,train
+121214185,0,planet,NASA_Exoplanet_Archive,Kepler-21 b,train
+467651916,0,planet,NASA_Exoplanet_Archive,TOI-4602.01,train
+202426247,0,planet,NASA_Exoplanet_Archive,TOI-1860 b,train
+441546821,0,planet,NASA_Exoplanet_Archive,HD 114082 b,test
+75878355,0,planet,NASA_Exoplanet_Archive,TOI-2134 b,train
+375506058,0,planet,NASA_Exoplanet_Archive,TOI-1431 b,train
+304142124,0,planet,NASA_Exoplanet_Archive,HD 95338 b,train
+410214986,0,planet,NASA_Exoplanet_Archive,DS Tuc A b,train
+290131778,0,planet,NASA_Exoplanet_Archive,HD 202772 A b,train
+129979528,0,planet,NASA_Exoplanet_Archive,WASP-33 b,train
+307809773,0,planet,NASA_Exoplanet_Archive,HD 260655 b,train
+158241252,0,planet,NASA_Exoplanet_Archive,TOI-4443.01,test
+349827430,0,planet,NASA_Exoplanet_Archive,KELT-24 b,train
+453211454,0,planet,NASA_Exoplanet_Archive,HD 63935 b,train
+391949880,0,planet,NASA_Exoplanet_Archive,TOI-128.01,train
+23434737,0,planet,NASA_Exoplanet_Archive,TOI-1203.01,train
+34068865,0,planet,NASA_Exoplanet_Archive,GJ 367 b,train
+199376584,0,planet,NASA_Exoplanet_Archive,HD 332231 b,val
+371443216,0,planet,NASA_Exoplanet_Archive,MASCARA-4 b,train
+418604868,0,planet,NASA_Exoplanet_Archive,TOI-5817 b,val
+354619337,0,planet,NASA_Exoplanet_Archive,MASCARA-1 b,train
+320004517,0,planet,NASA_Exoplanet_Archive,HD 183579 b,train
+394172596,0,planet,NASA_Exoplanet_Archive,Kepler-444 b,train
+70513361,0,planet,NASA_Exoplanet_Archive,TOI-262 b,val
+333657795,0,planet,NASA_Exoplanet_Archive,HD 20329 b,train
+367366318,0,planet,NASA_Exoplanet_Archive,KELT-7 b,val
+31374837,0,planet,NASA_Exoplanet_Archive,TOI-431 d,train
+207141131,0,planet,NASA_Exoplanet_Archive,HD 18599 b,train
+97735908,0,planet,NASA_Exoplanet_Archive,KELT-2 A b,val
+114018671,0,planet,NASA_Exoplanet_Archive,TOI-1011 b,train
+318707987,0,planet,NASA_Exoplanet_Archive,HD 3167 c,test
+257241363,0,planet,NASA_Exoplanet_Archive,TOI-1718 b,train
+39903405,0,planet,NASA_Exoplanet_Archive,HAT-P-2 b,val
+219857012,0,planet,NASA_Exoplanet_Archive,TOI-1742 b,train
+269701147,0,planet,NASA_Exoplanet_Archive,HD 191939 b,train
+318753380,0,planet,NASA_Exoplanet_Archive,TOI-2443 b,train
+352413427,0,planet,NASA_Exoplanet_Archive,HD 6061 b,train
+120896927,0,planet,NASA_Exoplanet_Archive,HD 15337 b,train
+48450369,0,planet,NASA_Exoplanet_Archive,Kepler-408 b,train
+408618999,0,planet,NASA_Exoplanet_Archive,TOI-1736 b,val
+457134360,0,planet,NASA_Exoplanet_Archive,HD 80606 b,train
+307958020,0,planet,NASA_Exoplanet_Archive,TOI-4633 c,val
+8967242,0,planet,NASA_Exoplanet_Archive,TOI-1799 b,train
+27491137,0,planet,NASA_Exoplanet_Archive,TOI-2076 d,train
+293954617,0,planet,NASA_Exoplanet_Archive,HD 235088 b,val
+349488688,0,planet,NASA_Exoplanet_Archive,HD 152843 c,train
+138819293,0,planet,NASA_Exoplanet_Archive,GJ 436 b,train
+366989877,0,planet,NASA_Exoplanet_Archive,TOI-1054.01,train
+39699648,0,planet,NASA_Exoplanet_Archive,HD 77946 b,train
+366443426,0,planet,NASA_Exoplanet_Archive,HIP 41378 f,train
+232540264,0,planet,NASA_Exoplanet_Archive,HD 135694 b,train
+37749396,0,planet,NASA_Exoplanet_Archive,TOI-260 b,test
+28230919,0,planet,NASA_Exoplanet_Archive,HAT-P-11 b,train
+9989136,0,planet,NASA_Exoplanet_Archive,TOI-5734 b,val
+88992642,0,planet,NASA_Exoplanet_Archive,TOI-2145 b,train
+83092282,0,planet,NASA_Exoplanet_Archive,TOI-622 b,train
+56815340,0,planet,NASA_Exoplanet_Archive,HD 106315 c,test
+298663873,0,planet,NASA_Exoplanet_Archive,TOI-2180 b,val
+306263608,0,planet,NASA_Exoplanet_Archive,HIP 9618 c,train
+350618622,0,planet,NASA_Exoplanet_Archive,TOI-201 b,test
+101011575,0,planet,NASA_Exoplanet_Archive,HD 73583 b,val
+404518509,0,planet,NASA_Exoplanet_Archive,HD 21520 b,train
+151759246,0,planet,NASA_Exoplanet_Archive,TOI-5800 b,train
+368435330,0,planet,NASA_Exoplanet_Archive,HD 93963 A c,test
+440887364,0,planet,NASA_Exoplanet_Archive,TOI-836.01,test
+260647166,0,planet,NASA_Exoplanet_Archive,HD 108236 e,val
+437856897,0,planet,NASA_Exoplanet_Archive,TOI-4603 b,train
+286712787,0,planet,NASA_Exoplanet_Archive,TOI-5159 b,test
+335630746,0,planet,NASA_Exoplanet_Archive,TOI-778 b,val
+198356533,0,planet,NASA_Exoplanet_Archive,TOI-1437 b,train
+203377303,0,planet,NASA_Exoplanet_Archive,TOI-3493 b,val
+449197831,0,planet,NASA_Exoplanet_Archive,TOI-2458 b,val
+360630575,0,planet,NASA_Exoplanet_Archive,HD 109833 c,train
+239332587,0,planet,NASA_Exoplanet_Archive,GJ 806 b,train
+29191624,0,planet,NASA_Exoplanet_Archive,TOI-1777.01,train
+413248763,0,planet,NASA_Exoplanet_Archive,GJ 357 b,train
+350020859,0,planet,NASA_Exoplanet_Archive,HD 89345 b,test
+147277741,0,planet,NASA_Exoplanet_Archive,NGTS-34 b,val
+427761355,0,planet,NASA_Exoplanet_Archive,TOI-1518 b,train
+425997655,0,planet,NASA_Exoplanet_Archive,HD 23472 e,val
+460984940,0,planet,NASA_Exoplanet_Archive,TOI-784 b,train
+383390264,0,planet,NASA_Exoplanet_Archive,HD 110082 b,train
+7422496,0,planet,NASA_Exoplanet_Archive,HD 35843 c,train
+33692729,0,planet,NASA_Exoplanet_Archive,TOI-469.01,test
+391903064,0,planet,NASA_Exoplanet_Archive,TOI-3353.01,train
+287080092,0,planet,NASA_Exoplanet_Archive,TOI-1751 b,train
+390651552,0,planet,NASA_Exoplanet_Archive,GJ 486 b,train
+364186197,0,planet,NASA_Exoplanet_Archive,TOI-1408 b,train
+100100827,0,planet,NASA_Exoplanet_Archive,WASP-18 b,train
+14336130,0,planet,NASA_Exoplanet_Archive,TOI-1716.01,train
+318696424,0,planet,NASA_Exoplanet_Archive,WASP-38 b,test
+106402532,0,planet,NASA_Exoplanet_Archive,TOI-733 b,test
+98796344,0,planet,NASA_Exoplanet_Archive,LTT 1445 A b,train
+248853232,0,planet,NASA_Exoplanet_Archive,WASP-69 b,test
+408310006,0,planet,NASA_Exoplanet_Archive,WASP-166 b,train
+4646810,0,planet,NASA_Exoplanet_Archive,HD 15906 b,test
+55315929,0,planet,NASA_Exoplanet_Archive,HD 80653 b,val
+270619260,0,planet,NASA_Exoplanet_Archive,Kepler-409 b,train
+287256467,0,planet,NASA_Exoplanet_Archive,TOI-2141 b,train
+149845414,0,planet,NASA_Exoplanet_Archive,TOI-2545 b,train
+445805961,0,planet,NASA_Exoplanet_Archive,TOI-1710 b,train
+65612701,0,planet,NASA_Exoplanet_Archive,TIC 65612701 b,train
+166836920,0,planet,NASA_Exoplanet_Archive,WASP-99 b,train
+142276270,0,planet,NASA_Exoplanet_Archive,TOI-1136 f,train
+29781292,0,planet,NASA_Exoplanet_Archive,HD 28109 b,train
+357501308,0,planet,NASA_Exoplanet_Archive,TOI-2018 b,train
+257774438,0,planet,NASA_Exoplanet_Archive,K2-222 b,train
+142387023,0,planet,NASA_Exoplanet_Archive,TOI-1824 b,train
+119292328,0,planet,NASA_Exoplanet_Archive,TOI-512 b,train
+393818343,0,planet,NASA_Exoplanet_Archive,TIC 393818343 b,train
+317597583,0,planet,NASA_Exoplanet_Archive,TOI-1630.01,train
+121490076,0,planet,NASA_Exoplanet_Archive,HIP 113103 c,val
+417931607,0,planet,NASA_Exoplanet_Archive,TOI-1451 b,train
+139702105,0,planet,NASA_Exoplanet_Archive,TIC 139702105 b,train
+120826158,0,planet,NASA_Exoplanet_Archive,TOI-4495 b,test
+252479260,0,planet,NASA_Exoplanet_Archive,HAT-P-22 b,train
+48018596,0,planet,NASA_Exoplanet_Archive,TOI-2295 b,train
+142937186,0,planet,NASA_Exoplanet_Archive,TOI-2427 b,test
+229455001,0,planet,NASA_Exoplanet_Archive,TOI-1744.01,train
+317060587,0,planet,NASA_Exoplanet_Archive,TOI-1052 b,train
+6893917,0,planet,NASA_Exoplanet_Archive,KELT-17 b,train
+293435336,0,planet,NASA_Exoplanet_Archive,WASP-76 b,test
+204650483,0,planet,NASA_Exoplanet_Archive,TOI-4551 b,train
+154872375,0,planet,NASA_Exoplanet_Archive,TOI-1135 b,train
+164458714,0,planet,NASA_Exoplanet_Archive,Kepler-410 A b,val
+395171208,0,planet,NASA_Exoplanet_Archive,TOI-1333 b,train
+180695581,0,planet,NASA_Exoplanet_Archive,TOI-1807 b,train
+63898957,0,planet,NASA_Exoplanet_Archive,TOI-261.01,train
+292202337,0,planet,NASA_Exoplanet_Archive,K2-406 b,train
+130924120,0,planet,NASA_Exoplanet_Archive,TOI-757 b,test
+389352124,0,planet,NASA_Exoplanet_Archive,WASP-7 b,train
+179034327,0,planet,NASA_Exoplanet_Archive,TOI-444 b,val
+164652245,0,planet,NASA_Exoplanet_Archive,Kepler-37 c,train
+48031665,0,planet,NASA_Exoplanet_Archive,TOI-4588 b,train
+301289516,0,planet,NASA_Exoplanet_Archive,GJ 9827 d,train
+158025009,0,planet,NASA_Exoplanet_Archive,TOI-1416 b,train
+248608315,0,planet,NASA_Exoplanet_Archive,HD 224018 d,test
+300038935,0,planet,NASA_Exoplanet_Archive,HD 56414 b,train
+71431780,0,planet,NASA_Exoplanet_Archive,TOI-1723 b,train
+183985250,0,planet,NASA_Exoplanet_Archive,LTT 9779 b,train
+116483514,0,planet,NASA_Exoplanet_Archive,TOI-1411 b,train
+150030205,0,planet,NASA_Exoplanet_Archive,TOI-286 b,val
+244089109,0,planet,NASA_Exoplanet_Archive,WASP-74 b,val
+97568467,0,planet,NASA_Exoplanet_Archive,TOI-2497 b,val
+237222864,0,planet,NASA_Exoplanet_Archive,HIP 97166 b,test
+183532609,0,planet,NASA_Exoplanet_Archive,WASP-8 b,train
+366484980,0,planet,NASA_Exoplanet_Archive,K2-330 b,train
+71582156,0,planet,NASA_Exoplanet_Archive,TOI-5726.01,train
+380887434,0,planet,NASA_Exoplanet_Archive,TOI-4527.01,test
+266980320,0,planet,NASA_Exoplanet_Archive,HD 219666 b,test
+354469661,0,planet,NASA_Exoplanet_Archive,HAT-P-60 b,train
+172518755,0,planet,NASA_Exoplanet_Archive,TOI-1789 b,train
+350348197,0,planet,NASA_Exoplanet_Archive,TOI-5108 b,train
+166527623,0,planet,NASA_Exoplanet_Archive,HIP 67522 b,val
+466376085,0,planet,NASA_Exoplanet_Archive,BD+05 4868 A b,train
+192415680,0,planet,NASA_Exoplanet_Archive,TOI-6041 b,train
+267263253,0,planet,NASA_Exoplanet_Archive,HD 2685 b,train
+429304876,0,planet,NASA_Exoplanet_Archive,TOI-682.01,train
+234994474,0,planet,NASA_Exoplanet_Archive,L 168-9 b,train
+187278212,0,planet,NASA_Exoplanet_Archive,Wolf 503 b,train
+212253390,0,planet,NASA_Exoplanet_Archive,TOI-2211.01,val
+34077285,0,planet,NASA_Exoplanet_Archive,TOI-880 c,train
+26547036,0,planet,NASA_Exoplanet_Archive,TOI-2010 b,test
+404505029,0,planet,NASA_Exoplanet_Archive,TOI-1842 b,val
+94986319,0,planet,NASA_Exoplanet_Archive,TOI-421 b,train
+280206394,0,planet,NASA_Exoplanet_Archive,TOI-677 b,train
+207468071,0,planet,NASA_Exoplanet_Archive,TOI-1836 b,test
+346250894,0,planet,NASA_Exoplanet_Archive,HD 137496 b,train
+68577662,0,planet,NASA_Exoplanet_Archive,K2-232 b,train
+743941,0,planet,NASA_Exoplanet_Archive,K2-292 b,train
+194736418,0,planet,NASA_Exoplanet_Archive,TOI-6038 A b,train
+347430350,0,planet,NASA_Exoplanet_Archive,WASP-14 b,train
+224225541,0,planet,NASA_Exoplanet_Archive,TOI-251 b,val
+399870368,0,planet,NASA_Exoplanet_Archive,HAT-P-70 b,train
+85293053,0,planet,NASA_Exoplanet_Archive,TOI-1772.01,val
+77253676,0,planet,NASA_Exoplanet_Archive,TOI-697 b,val
+102840239,0,planet,NASA_Exoplanet_Archive,TOI-815 c,train
+62483237,0,planet,NASA_Exoplanet_Archive,TOI-139 b,val
+260708537,0,planet,NASA_Exoplanet_Archive,GJ 238 b,val
+123846039,0,planet,NASA_Exoplanet_Archive,TOI-883 b,train
+422618449,0,planet,NASA_Exoplanet_Archive,HIP 116454 b,train
+27039476,0,planet,NASA_Exoplanet_Archive,K2-291 b,train
+339672028,0,planet,NASA_Exoplanet_Archive,TOI-481 b,train
+192790476,0,planet,NASA_Exoplanet_Archive,TOI-2459 b,train
+134200185,0,planet,NASA_Exoplanet_Archive,TOI-500 b,train
+137151335,0,planet,NASA_Exoplanet_Archive,Kepler-93 b,train
+307210830,0,planet,NASA_Exoplanet_Archive,L 98-59 b,train
+67666096,0,planet,NASA_Exoplanet_Archive,KELT-3 b,train
+8400842,0,planet,NASA_Exoplanet_Archive,XO-3 b,train
+281575427,0,planet,NASA_Exoplanet_Archive,TOI-205 b,train
+164767175,0,planet,NASA_Exoplanet_Archive,HIP 8152 b,train
+73228647,0,planet,NASA_Exoplanet_Archive,HD 110113 b,test
+441739020,0,planet,NASA_Exoplanet_Archive,TOI-1670 c,train
+271168962,0,planet,NASA_Exoplanet_Archive,WASP-131 b,train
+299799658,0,planet,NASA_Exoplanet_Archive,TOI-1062 b,test
+176220787,0,planet,NASA_Exoplanet_Archive,WASP-136 b,train
+15756231,0,planet,NASA_Exoplanet_Archive,V1298 Tau b,train
+147660886,0,planet,NASA_Exoplanet_Archive,TOI-2005 b,train
+262530407,0,planet,NASA_Exoplanet_Archive,GJ 3090 b,train
+144065872,0,planet,NASA_Exoplanet_Archive,WASP-95 b,train
+417676622,0,planet,NASA_Exoplanet_Archive,Kepler-68 b,train
+258804746,0,planet,NASA_Exoplanet_Archive,TOI-2431 b,train
+268334473,0,planet,NASA_Exoplanet_Archive,TOI-1691 b,train
+85242435,0,planet,NASA_Exoplanet_Archive,TOI-1722 b,train
+377064495,0,planet,NASA_Exoplanet_Archive,TOI-561 e,train
+178819686,0,planet,NASA_Exoplanet_Archive,TOI-763 b,train
+428679607,0,planet,NASA_Exoplanet_Archive,TOI-1669 c,train
+452808876,0,planet,NASA_Exoplanet_Archive,WASP-82 b,train
+101721385,0,planet,NASA_Exoplanet_Archive,HAT-P-14 b,train
+27064468,0,planet,NASA_Exoplanet_Archive,TOI-5126 b,train
+288631580,0,planet,NASA_Exoplanet_Archive,TOI-1659.01,train
+8260536,0,planet,NASA_Exoplanet_Archive,TOI-5398 b,train
+376353509,0,planet,NASA_Exoplanet_Archive,TOI-1648 b,train
+39936432,0,planet,NASA_Exoplanet_Archive,K2-116 b,train
+165297570,0,planet,NASA_Exoplanet_Archive,KELT-4 A b,train
+42883782,0,planet,NASA_Exoplanet_Archive,TOI-5788 c,train
+21244210,0,planet,NASA_Exoplanet_Archive,K2-184 b,train
+159781361,0,planet,NASA_Exoplanet_Archive,TOI-2019 b,train
+174328045,0,planet,NASA_Exoplanet_Archive,TOI-6651 b,train
+379929661,0,planet,NASA_Exoplanet_Archive,HAT-P-69 b,train
+407126408,0,planet,NASA_Exoplanet_Archive,TOI-913 b,val
+287156968,0,planet,NASA_Exoplanet_Archive,TOI-1230.01,test
+1129033,0,planet,NASA_Exoplanet_Archive,WASP-77 A b,train
+169226822,0,planet,NASA_Exoplanet_Archive,WASP-127 b,train
+94924543,0,planet,NASA_Exoplanet_Archive,EPIC 229004835 b,train
+172900988,0,planet,NASA_Exoplanet_Archive,TIC 172900988 b,train
+198588220,0,planet,NASA_Exoplanet_Archive,HAT-P-67 b,test
+166739520,0,planet,NASA_Exoplanet_Archive,WASP-117 b,train
+92352620,0,planet,NASA_Exoplanet_Archive,WASP-94 A b,val
+50618703,0,planet,NASA_Exoplanet_Archive,TOI-544 b,test
+63368895,0,planet,NASA_Exoplanet_Archive,Kepler-1869 c,train
+425206121,0,planet,NASA_Exoplanet_Archive,KELT-19 A b,val
+281408474,0,planet,NASA_Exoplanet_Archive,TOI-628 b,val
+404421005,0,planet,NASA_Exoplanet_Archive,K2-277 b,test
+243244680,0,planet,NASA_Exoplanet_Archive,EPIC 211945201 b,train
+170634116,0,planet,NASA_Exoplanet_Archive,WASP-79 b,train
+382626661,0,planet,NASA_Exoplanet_Archive,TOI-283 b,train
+150098860,0,planet,NASA_Exoplanet_Archive,TOI-220 b,train
+286916251,0,planet,NASA_Exoplanet_Archive,TOI-1794 b,train
+149603524,0,planet,NASA_Exoplanet_Archive,WASP-62 b,train
+15692883,0,planet,NASA_Exoplanet_Archive,WASP-187 b,test
+306996324,0,planet,NASA_Exoplanet_Archive,TOI-776 b,test
+38200266,0,planet,NASA_Exoplanet_Archive,K2-65 b,train
+266593143,0,planet,NASA_Exoplanet_Archive,HAT-P-17 b,train
+437242640,0,planet,NASA_Exoplanet_Archive,WASP-34 b,test
+232568235,0,planet,NASA_Exoplanet_Archive,TOI-2260 b,train
+346338552,0,planet,NASA_Exoplanet_Archive,HAT-P-1 b,train
+219344917,0,planet,NASA_Exoplanet_Archive,TOI-871 b,train
+458478250,0,planet,NASA_Exoplanet_Archive,KELT-23 A b,train
+142381532,0,planet,NASA_Exoplanet_Archive,TOI-1823 b,train
+40292751,0,planet,NASA_Exoplanet_Archive,TOI-5786 b,test
+188876052,0,planet,NASA_Exoplanet_Archive,HAT-P-8 b,test
+44792534,0,planet,NASA_Exoplanet_Archive,TOI-954 b,train
+139270665,0,planet,NASA_Exoplanet_Archive,TIC 139270665 b,train
+392476080,0,planet,NASA_Exoplanet_Archive,TOI-2109 b,test
+47911178,0,planet,NASA_Exoplanet_Archive,WASP-101 b,val
+58542531,0,planet,NASA_Exoplanet_Archive,TOI-1683.01,train
+159418353,0,planet,NASA_Exoplanet_Archive,TOI-1739 b,test
+428820090,0,planet,NASA_Exoplanet_Archive,K2-233 c,train
+333674399,0,planet,NASA_Exoplanet_Archive,TOI-4511 b,train
+293687315,0,planet,NASA_Exoplanet_Archive,KELT-18 b,train
+55525572,0,planet,NASA_Exoplanet_Archive,TOI-813 b,train
+165987272,0,planet,NASA_Exoplanet_Archive,KELT-6 b,train
+169081296,0,planet,NASA_Exoplanet_Archive,Kepler-96 b,test
+157236902,0,planet,NASA_Exoplanet_Archive,TOI-4465 b,train
+119584412,0,planet,NASA_Exoplanet_Archive,TOI-1801 b,train
+231670397,0,planet,NASA_Exoplanet_Archive,WASP-73 b,train
+61098812,0,planet,NASA_Exoplanet_Archive,WASP-54 b,test
+278348461,0,planet,NASA_Exoplanet_Archive,HAT-P-34 b,test
+160708862,0,planet,NASA_Exoplanet_Archive,WASP-178 b,train
+138168780,0,planet,NASA_Exoplanet_Archive,XO-6 b,test
+117414377,0,planet,NASA_Exoplanet_Archive,K2-376 b,test
+170729775,0,planet,NASA_Exoplanet_Archive,TOI-2449 b,train
+201248411,0,planet,NASA_Exoplanet_Archive,HIP 65 A b,train
+150151262,0,planet,NASA_Exoplanet_Archive,TOI-712 c,test
+137906197,0,planet,NASA_Exoplanet_Archive,TOI-1768.01,train
+103633434,0,planet,NASA_Exoplanet_Archive,TOI-1235 b,train
+9006668,0,planet,NASA_Exoplanet_Archive,TOI-238 b,train
+12421862,0,planet,NASA_Exoplanet_Archive,TOI-198 b,train
+408636441,0,planet,NASA_Exoplanet_Archive,TOI-1759 b,test
+365733349,0,planet,NASA_Exoplanet_Archive,TOI-1288 b,train
+460205581,0,planet,NASA_Exoplanet_Archive,TOI-837 b,train
+99224131,0,planet,NASA_Exoplanet_Archive,HAT-P-49 b,train
+229742722,0,planet,NASA_Exoplanet_Archive,TOI-1859 b,val
+466382581,0,planet,NASA_Exoplanet_Archive,TOI-5803 b,train
+237232044,0,planet,NASA_Exoplanet_Archive,TOI-1443 b,train
+455135327,0,planet,NASA_Exoplanet_Archive,HAT-P-30 b,val
+305424003,0,planet,NASA_Exoplanet_Archive,TOI-907.01,test
+233087860,0,planet,NASA_Exoplanet_Archive,TOI-1184 b,train
+152569268,0,planet,NASA_Exoplanet_Archive,TOI-6281 b,train
+71841620,0,planet,NASA_Exoplanet_Archive,WASP-68 b,train
+20096620,0,planet,NASA_Exoplanet_Archive,HAT-P-13 b,train
+408261725,0,planet,NASA_Exoplanet_Archive,TOI-4513 b,train
+281731203,0,planet,NASA_Exoplanet_Archive,K2-261 b,val
+230982885,0,planet,NASA_Exoplanet_Archive,WASP-97 b,train
+250977648,0,planet,NASA_Exoplanet_Archive,K2-39 b,train
+8767448,0,planet,NASA_Exoplanet_Archive,WASP-13 b,train
+232982558,0,planet,NASA_Exoplanet_Archive,TOI-1439 b,train
+303432813,0,planet,NASA_Exoplanet_Archive,TOI-5076 b,train
+348835438,0,planet,NASA_Exoplanet_Archive,TOI-2669 b,train
+224297258,0,planet,NASA_Exoplanet_Archive,TOI-1279 b,train
+176899385,0,planet,NASA_Exoplanet_Archive,HAT-P-6 b,val
+298896336,0,planet,NASA_Exoplanet_Archive,Kepler-50 b,train
+79748331,0,planet,NASA_Exoplanet_Archive,TOI-1064 b,val
+394561119,0,planet,NASA_Exoplanet_Archive,TOI-1107 b,train
+405425498,0,planet,NASA_Exoplanet_Archive,TOI-2227 b,train
+307733361,0,planet,NASA_Exoplanet_Archive,K2-100 b,train
+1167538,0,planet,NASA_Exoplanet_Archive,TOI-2447 b,train
+50171060,0,planet,NASA_Exoplanet_Archive,K2-31 b,train
+424865156,0,planet,NASA_Exoplanet_Archive,HAT-P-7 b,train
+301235044,0,planet,NASA_Exoplanet_Archive,K2-141 b,train
+377293776,0,planet,NASA_Exoplanet_Archive,TOI-1450 A b,train
+27626711,0,planet,NASA_Exoplanet_Archive,K2-373 b,train
+53498154,0,planet,NASA_Exoplanet_Archive,TOI-5624 d,val
+147977348,0,planet,NASA_Exoplanet_Archive,TOI-640 b,train
+309792357,0,planet,NASA_Exoplanet_Archive,TOI-199 b,train
+350293646,0,planet,NASA_Exoplanet_Archive,WASP-84 b,train
+268403451,0,planet,NASA_Exoplanet_Archive,XO-7 b,val
+300812741,0,planet,NASA_Exoplanet_Archive,TOI-2322 c,train
+367630162,0,planet,NASA_Exoplanet_Archive,TOI-2104 b,train
+22529346,0,planet,NASA_Exoplanet_Archive,WASP-121 b,test
+349095149,0,planet,NASA_Exoplanet_Archive,TOI-1221 b,train
+343019899,0,planet,NASA_Exoplanet_Archive,TOI-1386 b,train
+30122649,0,planet,NASA_Exoplanet_Archive,TOI-808 b,train
+193641523,0,planet,NASA_Exoplanet_Archive,TOI-824 b,train
+229510866,0,planet,NASA_Exoplanet_Archive,TOI-1181 b,train
+167342439,0,planet,NASA_Exoplanet_Archive,TOI-707 b,val
+367858035,0,planet,NASA_Exoplanet_Archive,TOI-1758 b,train
+139375960,0,planet,NASA_Exoplanet_Archive,TOI-1601 b,train
+27848472,0,planet,NASA_Exoplanet_Archive,WASP-3 b,val
+159046962,0,planet,NASA_Exoplanet_Archive,Kepler-126 c,train
+257436461,0,planet,NASA_Exoplanet_Archive,K2-209 b,train
+158002130,0,planet,NASA_Exoplanet_Archive,TOI-1180 b,train
+317520667,0,planet,NASA_Exoplanet_Archive,HAT-P-57 b,train
+370133522,0,planet,NASA_Exoplanet_Archive,GJ 1252 b,val
+18310799,0,planet,NASA_Exoplanet_Archive,K2-136 c,train
+116242971,0,planet,NASA_Exoplanet_Archive,KELT-12 b,train
+333473672,0,planet,NASA_Exoplanet_Archive,TOI-1422 c,train
+384888319,0,planet,NASA_Exoplanet_Archive,TOI-4529 b,train
+198390247,0,planet,NASA_Exoplanet_Archive,TOI-1453 b,val
+260004324,0,planet,NASA_Exoplanet_Archive,LHS 1815 b,train
+254113311,0,planet,NASA_Exoplanet_Archive,TOI-1130 b,train
+362249359,0,planet,NASA_Exoplanet_Archive,TOI-833 b,train
+142394656,0,planet,NASA_Exoplanet_Archive,TOI-1268 b,train
+380619414,0,planet,NASA_Exoplanet_Archive,WASP-85 A b,train
+369327947,0,planet,NASA_Exoplanet_Archive,LHS 475 b,train
+258514800,0,planet,NASA_Exoplanet_Archive,TOI-1444 b,train
+161045582,0,planet,NASA_Exoplanet_Archive,TIC 161045582 b,train
+422655579,0,planet,NASA_Exoplanet_Archive,WASP-71 b,val
+51234631,0,planet,NASA_Exoplanet_Archive,XO-4 b,train
+342642208,0,planet,NASA_Exoplanet_Archive,TOI-2158 b,test
+441587756,0,planet,NASA_Exoplanet_Archive,TOI-5380 b,train
+124573851,0,planet,NASA_Exoplanet_Archive,TOI-669 b,test
+52005579,0,planet,NASA_Exoplanet_Archive,Gliese 12 b,train
+435279748,0,planet,NASA_Exoplanet_Archive,K2-175 b,train
+4165850,0,planet,NASA_Exoplanet_Archive,TOI-5160 b,val
+151724385,0,planet,NASA_Exoplanet_Archive,TOI-5795 b,train
+199444169,0,planet,NASA_Exoplanet_Archive,TOI-1410.01,val
+52368076,0,planet,NASA_Exoplanet_Archive,TOI-125 b,train
+358516596,0,planet,NASA_Exoplanet_Archive,KELT-8 b,train
+409794137,0,planet,NASA_Exoplanet_Archive,TOI-1478 b,train
+232976128,0,planet,NASA_Exoplanet_Archive,TOI-1249 b,train
+296739893,0,planet,NASA_Exoplanet_Archive,TOI-620 b,val
+381714186,0,planet,NASA_Exoplanet_Archive,TOI-1839 b,train
+164884235,0,planet,NASA_Exoplanet_Archive,Kepler-381 c,train
+432549364,0,planet,NASA_Exoplanet_Archive,KELT-1 b,train
+96925186,0,planet,NASA_Exoplanet_Archive,TOI-2518 b,val
+179582003,0,planet,NASA_Exoplanet_Archive,TOI-4507 b,train
+158324245,0,planet,NASA_Exoplanet_Archive,KOI-13 b,train
+445903569,0,planet,NASA_Exoplanet_Archive,TOI-1994 b,train
+19028197,0,planet,NASA_Exoplanet_Archive,GJ 3470 b,train
+211438925,0,planet,NASA_Exoplanet_Archive,WASP-20 b,train
+98720809,0,planet,NASA_Exoplanet_Archive,K2-229 b,train
+183537452,0,planet,NASA_Exoplanet_Archive,WASP-29 b,train
+154089169,0,planet,NASA_Exoplanet_Archive,TOI-1174 b,test
+447061717,0,planet,NASA_Exoplanet_Archive,TOI-1231 b,train
+239977528,0,planet,NASA_Exoplanet_Archive,TOI-5110 b,val
+201175570,0,planet,NASA_Exoplanet_Archive,TOI-7041 b,train
+257605131,0,planet,NASA_Exoplanet_Archive,TOI-451 c,train
+188589164,0,planet,NASA_Exoplanet_Archive,GJ 3929 b,train
+269217040,0,planet,NASA_Exoplanet_Archive,KELT-10 b,val
+120960812,0,planet,NASA_Exoplanet_Archive,Kepler-25 b,train
+274151135,0,planet,NASA_Exoplanet_Archive,TOI-1105 b,train
+26826078,0,planet,NASA_Exoplanet_Archive,HAT-P-20 b,train
+146172354,0,planet,NASA_Exoplanet_Archive,TOI-1036 b,val
+232967440,0,planet,NASA_Exoplanet_Archive,TOI-1173 b,test
+411608801,0,planet,NASA_Exoplanet_Archive,WASP-186 b,test
+190496853,0,planet,NASA_Exoplanet_Archive,TOI-615 b,train
+178284730,0,planet,NASA_Exoplanet_Archive,WASP-140 b,train
+38846515,0,planet,NASA_Exoplanet_Archive,WASP-100 b,train
+104024556,0,planet,NASA_Exoplanet_Archive,WASP-167 b,train
+229650439,0,planet,NASA_Exoplanet_Archive,TOI-1438 c,test
+316416562,0,planet,NASA_Exoplanet_Archive,TOI-5630 b,train
+144193715,0,planet,NASA_Exoplanet_Archive,TOI-4308 b,val
+126322519,0,planet,NASA_Exoplanet_Archive,TOI-5502 b,test
+118327550,0,planet,NASA_Exoplanet_Archive,TOI-244 b,val
+15445551,0,planet,NASA_Exoplanet_Archive,WASP-87 b,val
+118339710,0,planet,NASA_Exoplanet_Archive,TOI-6695 b,train
+289164482,0,planet,NASA_Exoplanet_Archive,TOI-2274 b,train
+171883078,0,planet,NASA_Exoplanet_Archive,Kepler-1876 b,train
+371188886,0,planet,NASA_Exoplanet_Archive,TOI-2000 b,train
+318022259,0,planet,NASA_Exoplanet_Archive,LHS 1903 d,train
+384984325,0,planet,NASA_Exoplanet_Archive,TOI-6109 b,train
+243921117,0,planet,NASA_Exoplanet_Archive,WASP-80 b,test
+68048686,0,planet,NASA_Exoplanet_Archive,K2-24 c,train
+456945304,0,planet,NASA_Exoplanet_Archive,K2-370 b,test
+191284318,0,planet,NASA_Exoplanet_Archive,HAT-P-16 b,train
+96199085,0,planet,NASA_Exoplanet_Archive,K2-243 c,train
+91555165,0,planet,NASA_Exoplanet_Archive,TOI-2345 b,train
+376637093,0,planet,NASA_Exoplanet_Archive,TOI-1516 b,train
+464300749,0,planet,NASA_Exoplanet_Archive,TOI-3362 b,val
+134537478,0,planet,NASA_Exoplanet_Archive,KELT-14 b,train
+70803960,0,planet,NASA_Exoplanet_Archive,K2-290 b,test
+341405597,0,planet,NASA_Exoplanet_Archive,TOI-6699 b,train
+26123781,0,planet,NASA_Exoplanet_Archive,BD+20 594 b,train
+295541511,0,planet,NASA_Exoplanet_Archive,TOI-1117 b,test
+120317234,0,planet,NASA_Exoplanet_Archive,Kepler-506 b,val
+429302040,0,planet,NASA_Exoplanet_Archive,WASP-107 b,train
+445859771,0,planet,NASA_Exoplanet_Archive,TOI-1273 b,train
+117642575,0,planet,NASA_Exoplanet_Archive,TIC 117642575 b,train
+251848941,0,planet,NASA_Exoplanet_Archive,TOI-178 d,train
+203189770,0,planet,NASA_Exoplanet_Archive,KELT-21 b,test
+99869022,0,planet,NASA_Exoplanet_Archive,TOI-1199 b,train
+146364192,0,planet,NASA_Exoplanet_Archive,K2-265 b,train
+10837041,0,planet,NASA_Exoplanet_Archive,TOI-2411 b,val
+77156829,0,planet,NASA_Exoplanet_Archive,LHS 1678 b,train
+31858843,0,planet,NASA_Exoplanet_Archive,WASP-123 b,train
+193336820,0,planet,NASA_Exoplanet_Archive,Ross 176 b,train
+393414358,0,planet,NASA_Exoplanet_Archive,WASP-63 b,val
+43647325,0,planet,NASA_Exoplanet_Archive,WASP-35 b,train
+111991770,0,planet,NASA_Exoplanet_Archive,WASP-15 b,train
+261135533,0,planet,NASA_Exoplanet_Archive,TOI-6255 b,train
+356473034,0,planet,NASA_Exoplanet_Archive,XO-2 N b,train
+280097543,0,planet,NASA_Exoplanet_Archive,TOI-375 b,train
+135043332,0,planet,NASA_Exoplanet_Archive,K2-198 c,test
+14227229,0,planet,NASA_Exoplanet_Archive,K2-111 b,val
+122612091,0,planet,NASA_Exoplanet_Archive,WASP-72 b,val
+76923707,0,planet,NASA_Exoplanet_Archive,TOI-181 b,train
+8599009,0,planet,NASA_Exoplanet_Archive,TOI-4463 A b,train
+62085710,0,planet,NASA_Exoplanet_Archive,TOI-6677 b,train
+46020827,0,planet,NASA_Exoplanet_Archive,WASP-185 b,train
+377780790,0,planet,NASA_Exoplanet_Archive,Kepler-10 c,train
+147950620,0,planet,NASA_Exoplanet_Archive,TOI-1194 b,train
+73848324,0,planet,NASA_Exoplanet_Archive,K2-287 b,train
+392469577,0,planet,NASA_Exoplanet_Archive,K2-190 b,train
+406941612,0,planet,NASA_Exoplanet_Archive,TOI-912 b,test
+243200602,0,planet,NASA_Exoplanet_Archive,WASP-130 b,val
+259377017,0,planet,NASA_Exoplanet_Archive,TOI-270 b,train
+394657039,0,planet,NASA_Exoplanet_Archive,TOI-159 b,train
+84339983,0,planet,NASA_Exoplanet_Archive,HAT-P-56 b,train
+158432813,0,planet,NASA_Exoplanet_Archive,Kepler-1713 b,train
+55275863,0,planet,NASA_Exoplanet_Archive,TOI-5515 b,val
+198153540,0,planet,NASA_Exoplanet_Archive,TOI-1798.01,train
+356867115,0,planet,NASA_Exoplanet_Archive,TOI-1301.01,train
+167600516,1,eclipsing_binary,fallback_hardcoded,,train
+206544316,1,eclipsing_binary,fallback_hardcoded,,train
+231279777,1,eclipsing_binary,fallback_hardcoded,,train
+284925350,1,eclipsing_binary,fallback_hardcoded,,train
+229804573,1,eclipsing_binary,fallback_hardcoded,,train
+120096955,1,eclipsing_binary,fallback_hardcoded,,train
+43578383,1,eclipsing_binary,fallback_hardcoded,,test
+150799667,1,eclipsing_binary,fallback_hardcoded,,train
+159867591,1,eclipsing_binary,fallback_hardcoded,,test
+388599788,1,eclipsing_binary,fallback_hardcoded,,test
+201711688,1,eclipsing_binary,fallback_hardcoded,,train
+234523599,1,eclipsing_binary,fallback_hardcoded,,train
+186812530,1,eclipsing_binary,fallback_hardcoded,,train
+219279396,1,eclipsing_binary,fallback_hardcoded,,train
+229131855,1,eclipsing_binary,fallback_hardcoded,,train
+243601013,1,eclipsing_binary,fallback_hardcoded,,test
+435033113,1,eclipsing_binary,fallback_hardcoded,,train
+399954349,1,eclipsing_binary,fallback_hardcoded,,test
+281703650,1,eclipsing_binary,fallback_hardcoded,,train
+130415266,1,eclipsing_binary,fallback_hardcoded,,train
+354480981,1,eclipsing_binary,fallback_hardcoded,,train
+261257684,1,eclipsing_binary,fallback_hardcoded,,val
+120362128,1,eclipsing_binary,fallback_hardcoded,,test
+165544932,1,eclipsing_binary,fallback_hardcoded,,train
+144193015,1,eclipsing_binary,fallback_hardcoded,,train
+294750180,1,eclipsing_binary,fallback_hardcoded,,train
+193831684,1,eclipsing_binary,fallback_hardcoded,,train
+280836525,1,eclipsing_binary,fallback_hardcoded,,train
+27533327,1,eclipsing_binary,fallback_hardcoded,,val
+431999926,1,eclipsing_binary,fallback_hardcoded,,train
+321544283,1,eclipsing_binary,fallback_hardcoded,,train
+403224673,1,eclipsing_binary,fallback_hardcoded,,test
+141483710,1,eclipsing_binary,fallback_hardcoded,,train
+189161044,1,eclipsing_binary,fallback_hardcoded,,val
+146520535,1,eclipsing_binary,fallback_hardcoded,,val
+382506590,1,eclipsing_binary,fallback_hardcoded,,train
+117552817,1,eclipsing_binary,fallback_hardcoded,,val
+50745567,1,eclipsing_binary,fallback_hardcoded,,train
+235048452,1,eclipsing_binary,fallback_hardcoded,,val
+352428048,1,eclipsing_binary,fallback_hardcoded,,train
+192770024,1,eclipsing_binary,fallback_hardcoded,,train
+236166858,1,eclipsing_binary,fallback_hardcoded,,train
+441765447,1,eclipsing_binary,fallback_hardcoded,,train
+271893367,2,blend,fallback_hardcoded,,train
+427344083,2,blend,fallback_hardcoded,,train
+88977253,2,blend,fallback_hardcoded,,train
+176956893,2,blend,fallback_hardcoded,,train
+388807515,2,blend,fallback_hardcoded,,test
+235678745,2,blend,fallback_hardcoded,,train
+143022824,2,blend,fallback_hardcoded,,val
+237920046,2,blend,fallback_hardcoded,,train
+330598006,2,blend,fallback_hardcoded,,test
+141177454,2,blend,fallback_hardcoded,,test
+394050135,2,blend,fallback_hardcoded,,train
+219854185,2,blend,fallback_hardcoded,,train
+336128819,2,blend,fallback_hardcoded,,train
+174561409,2,blend,fallback_hardcoded,,train
+388874338,2,blend,fallback_hardcoded,,val
+152877846,2,blend,fallback_hardcoded,,train
+135700381,3,other,fallback_synthetic,,train
+409582419,3,other,fallback_synthetic,,train
+361828607,3,other,fallback_synthetic,,train
+275551375,3,other,fallback_synthetic,,train
+273206094,3,other,fallback_synthetic,,val
+443439167,3,other,fallback_synthetic,,train
+134378255,3,other,fallback_synthetic,,train
+378947211,3,other,fallback_synthetic,,train
+180587814,3,other,fallback_synthetic,,test
+137670939,3,other,fallback_synthetic,,train
+310591591,3,other,fallback_synthetic,,train
+490248940,3,other,fallback_synthetic,,train
+394300948,3,other,fallback_synthetic,,val
+404455880,3,other,fallback_synthetic,,train
+386990910,3,other,fallback_synthetic,,test
+305290629,3,other,fallback_synthetic,,train
+435899291,3,other,fallback_synthetic,,test
+280154375,3,other,fallback_synthetic,,train
+300140766,3,other,fallback_synthetic,,test
+248319209,3,other,fallback_synthetic,,train
+173019854,3,other,fallback_synthetic,,test
+470705995,3,other,fallback_synthetic,,train
+412626982,3,other,fallback_synthetic,,val
+357546047,3,other,fallback_synthetic,,train
+260965745,3,other,fallback_synthetic,,train
+429104645,3,other,fallback_synthetic,,train
+318171647,3,other,fallback_synthetic,,train
+277365679,3,other,fallback_synthetic,,train
+280183821,3,other,fallback_synthetic,,train
+190895488,3,other,fallback_synthetic,,train
+136854365,3,other,fallback_synthetic,,train
+321833914,3,other,fallback_synthetic,,train
+455155937,3,other,fallback_synthetic,,test
+125526902,3,other,fallback_synthetic,,train
+443316517,3,other,fallback_synthetic,,train
+431052468,3,other,fallback_synthetic,,train
+210703877,3,other,fallback_synthetic,,train
+352665759,3,other,fallback_synthetic,,train
+166091631,3,other,fallback_synthetic,,train
+380209186,3,other,fallback_synthetic,,train
+241810387,3,other,fallback_synthetic,,val
+127168000,3,other,fallback_synthetic,,train
+488279209,3,other,fallback_synthetic,,test
+278274994,3,other,fallback_synthetic,,train
+457248448,3,other,fallback_synthetic,,val
+371167604,3,other,fallback_synthetic,,train
+411353398,3,other,fallback_synthetic,,val
+403959776,3,other,fallback_synthetic,,train
+177855483,3,other,fallback_synthetic,,val
+245562412,3,other,fallback_synthetic,,train
+286688401,3,other,fallback_synthetic,,test
+299116616,3,other,fallback_synthetic,,train
+117521506,3,other,fallback_synthetic,,train
+318627801,3,other,fallback_synthetic,,train
+161715796,3,other,fallback_synthetic,,test
+397350362,3,other,fallback_synthetic,,train
+373219581,3,other,fallback_synthetic,,val
+469011135,3,other,fallback_synthetic,,train
+397904862,3,other,fallback_synthetic,,test
+246657062,3,other,fallback_synthetic,,test
+487003892,3,other,fallback_synthetic,,test
+264340141,3,other,fallback_synthetic,,train
+230330143,3,other,fallback_synthetic,,val
+462214306,3,other,fallback_synthetic,,train
+248183882,3,other,fallback_synthetic,,train
+130537274,3,other,fallback_synthetic,,test
+287822324,3,other,fallback_synthetic,,train
+418271990,3,other,fallback_synthetic,,test
+175788543,3,other,fallback_synthetic,,train
+285176228,3,other,fallback_synthetic,,train
+151968602,3,other,fallback_synthetic,,train
+374591284,3,other,fallback_synthetic,,train
+290281970,3,other,fallback_synthetic,,train
+232078533,3,other,fallback_synthetic,,train
+190763739,3,other,fallback_synthetic,,train
+325799957,3,other,fallback_synthetic,,train
+367925597,3,other,fallback_synthetic,,val
+476122438,3,other,fallback_synthetic,,val
+274860767,3,other,fallback_synthetic,,val
+164275264,3,other,fallback_synthetic,,train
+433071278,3,other,fallback_synthetic,,train
+351905720,3,other,fallback_synthetic,,train
+380106040,3,other,fallback_synthetic,,train
+138890653,3,other,fallback_synthetic,,train
+224946656,3,other,fallback_synthetic,,train
+407137565,3,other,fallback_synthetic,,test
+432903920,3,other,fallback_synthetic,,train
+421905742,3,other,fallback_synthetic,,train
+436676747,3,other,fallback_synthetic,,train
+254991351,3,other,fallback_synthetic,,test
+459235050,3,other,fallback_synthetic,,val
+215331241,3,other,fallback_synthetic,,train
+195823113,3,other,fallback_synthetic,,val
+372998201,3,other,fallback_synthetic,,test
+354704730,3,other,fallback_synthetic,,train
+155900993,3,other,fallback_synthetic,,train
+433094698,3,other,fallback_synthetic,,train
+179963280,3,other,fallback_synthetic,,train
+421959645,3,other,fallback_synthetic,,train
+102944907,3,other,fallback_synthetic,,train
+418737034,3,other,fallback_synthetic,,train
+414769750,3,other,fallback_synthetic,,train
+412145727,3,other,fallback_synthetic,,train
+365940342,3,other,fallback_synthetic,,train
+288626857,3,other,fallback_synthetic,,val
+382066151,3,other,fallback_synthetic,,train
+412291612,3,other,fallback_synthetic,,train
+322258784,3,other,fallback_synthetic,,train
+283566310,3,other,fallback_synthetic,,test
+302242500,3,other,fallback_synthetic,,val
+327496478,3,other,fallback_synthetic,,train
+114904924,3,other,fallback_synthetic,,val
+155918799,3,other,fallback_synthetic,,train
+198192466,3,other,fallback_synthetic,,train
+145812029,3,other,fallback_synthetic,,val
+275845429,3,other,fallback_synthetic,,train
+367361184,3,other,fallback_synthetic,,train
+361771543,3,other,fallback_synthetic,,train
+288438482,3,other,fallback_synthetic,,train
+326094442,3,other,fallback_synthetic,,train
+131678961,3,other,fallback_synthetic,,train
+405999542,3,other,fallback_synthetic,,train
+329840249,3,other,fallback_synthetic,,train
+353887327,3,other,fallback_synthetic,,val
+326149330,3,other,fallback_synthetic,,test
+321431760,3,other,fallback_synthetic,,train
+136226570,3,other,fallback_synthetic,,train
+323682864,3,other,fallback_synthetic,,train
+417965046,3,other,fallback_synthetic,,train
+221580039,3,other,fallback_synthetic,,train
+341135297,3,other,fallback_synthetic,,train
+112327133,3,other,fallback_synthetic,,train
+238999680,3,other,fallback_synthetic,,train
+274686955,3,other,fallback_synthetic,,val
+493095357,3,other,fallback_synthetic,,val
+210619332,3,other,fallback_synthetic,,train
+263411457,3,other,fallback_synthetic,,train
+497066247,3,other,fallback_synthetic,,train
+441361229,3,other,fallback_synthetic,,train
+113877185,3,other,fallback_synthetic,,train
+193575794,3,other,fallback_synthetic,,test
+428669779,3,other,fallback_synthetic,,train
+123321096,3,other,fallback_synthetic,,train
+442268341,3,other,fallback_synthetic,,train
+212553556,3,other,fallback_synthetic,,train
+467060852,3,other,fallback_synthetic,,train
+273726722,3,other,fallback_synthetic,,train
+364766605,3,other,fallback_synthetic,,train
+150512294,3,other,fallback_synthetic,,train
+322812860,3,other,fallback_synthetic,,train
+302006198,3,other,fallback_synthetic,,train
+413559283,3,other,fallback_synthetic,,train
+498442762,3,other,fallback_synthetic,,train
+263674576,3,other,fallback_synthetic,,val
+262554744,3,other,fallback_synthetic,,train
+267183498,3,other,fallback_synthetic,,test
+425608153,3,other,fallback_synthetic,,train
+228486292,3,other,fallback_synthetic,,train
+166789167,3,other,fallback_synthetic,,train
+109084829,3,other,fallback_synthetic,,test
+142457033,3,other,fallback_synthetic,,train
+136019144,3,other,fallback_synthetic,,train
+408620965,3,other,fallback_synthetic,,train
+388943740,3,other,fallback_synthetic,,val
+378708316,3,other,fallback_synthetic,,val
+386823404,3,other,fallback_synthetic,,train
+164508711,3,other,fallback_synthetic,,train
+460248672,3,other,fallback_synthetic,,train
+300417909,3,other,fallback_synthetic,,train
+475220556,3,other,fallback_synthetic,,train
+160924840,3,other,fallback_synthetic,,test
+298932030,3,other,fallback_synthetic,,train
+378528149,3,other,fallback_synthetic,,train
+298250348,3,other,fallback_synthetic,,test
+278462510,3,other,fallback_synthetic,,train
+166485637,3,other,fallback_synthetic,,test
+252408490,3,other,fallback_synthetic,,test
+195506506,3,other,fallback_synthetic,,train
+220604835,3,other,fallback_synthetic,,train
+373480264,3,other,fallback_synthetic,,train
+352113037,3,other,fallback_synthetic,,train
+342878572,3,other,fallback_synthetic,,train
+244725044,3,other,fallback_synthetic,,val
+483877033,3,other,fallback_synthetic,,test
+135059967,3,other,fallback_synthetic,,train
+237036309,3,other,fallback_synthetic,,train
+147202360,3,other,fallback_synthetic,,train
+235577522,3,other,fallback_synthetic,,train
+484759065,3,other,fallback_synthetic,,val
+246505414,3,other,fallback_synthetic,,train
+463432276,3,other,fallback_synthetic,,test
+298026263,3,other,fallback_synthetic,,train
+379882853,3,other,fallback_synthetic,,train
+282966994,3,other,fallback_synthetic,,train
+206347984,3,other,fallback_synthetic,,val
+405691781,3,other,fallback_synthetic,,train
+487670550,3,other,fallback_synthetic,,train
+205409944,3,other,fallback_synthetic,,train
+411500361,3,other,fallback_synthetic,,test
+204456000,3,other,fallback_synthetic,,train
+386756075,3,other,fallback_synthetic,,train
+415602624,3,other,fallback_synthetic,,train
+279744600,3,other,fallback_synthetic,,test
+394767839,3,other,fallback_synthetic,,train
+208896624,3,other,fallback_synthetic,,val
+131701405,3,other,fallback_synthetic,,train
+138556384,3,other,fallback_synthetic,,train
+278809487,3,other,fallback_synthetic,,val
+461040958,3,other,fallback_synthetic,,train
+151030739,3,other,fallback_synthetic,,train
+282310515,3,other,fallback_synthetic,,train
+381612824,3,other,fallback_synthetic,,train
+180945345,3,other,fallback_synthetic,,train
+388646559,3,other,fallback_synthetic,,val
+222382649,3,other,fallback_synthetic,,train
+423464298,3,other,fallback_synthetic,,train
+331687827,3,other,fallback_synthetic,,test
+318762908,3,other,fallback_synthetic,,val
+170709113,3,other,fallback_synthetic,,train
+285282363,3,other,fallback_synthetic,,val
+442645713,3,other,fallback_synthetic,,train
+107809596,3,other,fallback_synthetic,,train
+403407811,3,other,fallback_synthetic,,train
+297104956,3,other,fallback_synthetic,,train
+387785182,3,other,fallback_synthetic,,train
+365319205,3,other,fallback_synthetic,,val
+272837215,3,other,fallback_synthetic,,train
+223466880,3,other,fallback_synthetic,,val
+350923536,3,other,fallback_synthetic,,test
+156089708,3,other,fallback_synthetic,,train
+333639187,3,other,fallback_synthetic,,train
+137877876,3,other,fallback_synthetic,,train
+359938640,3,other,fallback_synthetic,,train
+351498114,3,other,fallback_synthetic,,train
+133777728,3,other,fallback_synthetic,,train
+402995158,3,other,fallback_synthetic,,test
+266322960,3,other,fallback_synthetic,,train
+414754583,3,other,fallback_synthetic,,test
+116645669,3,other,fallback_synthetic,,train
+171782599,3,other,fallback_synthetic,,train
+297596327,3,other,fallback_synthetic,,train
+175290068,3,other,fallback_synthetic,,train
+231944484,3,other,fallback_synthetic,,val
+364239617,3,other,fallback_synthetic,,train
+157809675,3,other,fallback_synthetic,,val
+371081176,3,other,fallback_synthetic,,train
+170074071,3,other,fallback_synthetic,,train
+335057828,3,other,fallback_synthetic,,train
+417393293,3,other,fallback_synthetic,,train
+168237187,3,other,fallback_synthetic,,train
+219997116,3,other,fallback_synthetic,,train
+470048047,3,other,fallback_synthetic,,train
+495873476,3,other,fallback_synthetic,,train
+332424455,3,other,fallback_synthetic,,train
+278815260,3,other,fallback_synthetic,,train
+238747921,3,other,fallback_synthetic,,val
+344980767,3,other,fallback_synthetic,,val
+336366196,3,other,fallback_synthetic,,test
+217901213,3,other,fallback_synthetic,,train
+109121548,3,other,fallback_synthetic,,val
+160599322,3,other,fallback_synthetic,,train
+483423685,3,other,fallback_synthetic,,train
+267261965,3,other,fallback_synthetic,,test
+292921374,3,other,fallback_synthetic,,train
+413094090,3,other,fallback_synthetic,,train
+125982626,3,other,fallback_synthetic,,train
+133091999,3,other,fallback_synthetic,,train
+210338898,3,other,fallback_synthetic,,train
+294663332,3,other,fallback_synthetic,,train
+368449615,3,other,fallback_synthetic,,train
+296282797,3,other,fallback_synthetic,,val
+276467230,3,other,fallback_synthetic,,test
+475130581,3,other,fallback_synthetic,,test
+164407577,3,other,fallback_synthetic,,train
+328691220,3,other,fallback_synthetic,,train
+316897867,3,other,fallback_synthetic,,test
+289395760,3,other,fallback_synthetic,,train
+423038976,3,other,fallback_synthetic,,train
+206790265,3,other,fallback_synthetic,,train
+481509145,3,other,fallback_synthetic,,test
+232627598,3,other,fallback_synthetic,,train
+318001792,3,other,fallback_synthetic,,train
+308268960,3,other,fallback_synthetic,,test
+439911158,3,other,fallback_synthetic,,train
+213823583,3,other,fallback_synthetic,,train
+108644831,3,other,fallback_synthetic,,train
+245471301,3,other,fallback_synthetic,,train
+430516769,3,other,fallback_synthetic,,train
+103966478,3,other,fallback_synthetic,,val
+458464308,3,other,fallback_synthetic,,test
+317130836,3,other,fallback_synthetic,,val
+156099635,3,other,fallback_synthetic,,train
+220871731,3,other,fallback_synthetic,,train
+321614457,3,other,fallback_synthetic,,train
+226276867,3,other,fallback_synthetic,,train
+143430296,3,other,fallback_synthetic,,train
+366395553,3,other,fallback_synthetic,,train
+368896037,3,other,fallback_synthetic,,train
+147549700,3,other,fallback_synthetic,,test
+212493513,3,other,fallback_synthetic,,val
+197549300,3,other,fallback_synthetic,,train
+363769053,3,other,fallback_synthetic,,train
+392118234,3,other,fallback_synthetic,,train
+390797845,3,other,fallback_synthetic,,test
+475504497,3,other,fallback_synthetic,,train
+407458996,3,other,fallback_synthetic,,val
+228271776,3,other,fallback_synthetic,,train
+143096378,3,other,fallback_synthetic,,train
+345857131,3,other,fallback_synthetic,,train
+466404737,3,other,fallback_synthetic,,train
+490062127,3,other,fallback_synthetic,,train
+192085596,3,other,fallback_synthetic,,train
+194582175,3,other,fallback_synthetic,,val
+114965022,3,other,fallback_synthetic,,train
+156504859,3,other,fallback_synthetic,,train
+321940987,3,other,fallback_synthetic,,train
+318721313,3,other,fallback_synthetic,,train
+248368913,3,other,fallback_synthetic,,train
+223982175,3,other,fallback_synthetic,,train
+431915897,3,other,fallback_synthetic,,train
+284013572,3,other,fallback_synthetic,,train
+423300588,3,other,fallback_synthetic,,train
+485284747,3,other,fallback_synthetic,,train
+181095325,3,other,fallback_synthetic,,val
+353932435,3,other,fallback_synthetic,,train
+216367135,3,other,fallback_synthetic,,train
+348743995,3,other,fallback_synthetic,,val
+306022851,3,other,fallback_synthetic,,train
+462212875,3,other,fallback_synthetic,,train
+202386036,3,other,fallback_synthetic,,train
+496553120,3,other,fallback_synthetic,,train
+474417427,3,other,fallback_synthetic,,train
+172280798,3,other,fallback_synthetic,,train
+313262733,3,other,fallback_synthetic,,train
+117964247,3,other,fallback_synthetic,,train
+219519183,3,other,fallback_synthetic,,train
+274038823,3,other,fallback_synthetic,,train
+487749323,3,other,fallback_synthetic,,train
+496950225,3,other,fallback_synthetic,,train
+160615977,3,other,fallback_synthetic,,train
+456670906,3,other,fallback_synthetic,,train
+136371529,3,other,fallback_synthetic,,test
+399443207,3,other,fallback_synthetic,,test
+438257082,3,other,fallback_synthetic,,train
+456316996,3,other,fallback_synthetic,,train
+189367177,3,other,fallback_synthetic,,val
+457378655,3,other,fallback_synthetic,,train
+146392361,3,other,fallback_synthetic,,train
+307543344,3,other,fallback_synthetic,,train
+287818119,3,other,fallback_synthetic,,train
+226371620,3,other,fallback_synthetic,,train
+108845670,3,other,fallback_synthetic,,train
+408804972,3,other,fallback_synthetic,,train
+234233460,3,other,fallback_synthetic,,train
+364664505,3,other,fallback_synthetic,,train
+264087969,3,other,fallback_synthetic,,test
+249463091,3,other,fallback_synthetic,,train
+454518366,3,other,fallback_synthetic,,train
+137786667,3,other,fallback_synthetic,,val
+394646943,3,other,fallback_synthetic,,train
+398715844,3,other,fallback_synthetic,,train
+251996580,3,other,fallback_synthetic,,test
+204984206,3,other,fallback_synthetic,,train
+102122828,3,other,fallback_synthetic,,train
+474725260,3,other,fallback_synthetic,,train
+479092585,3,other,fallback_synthetic,,test
+196388229,3,other,fallback_synthetic,,val
+112764420,3,other,fallback_synthetic,,train
+149103172,3,other,fallback_synthetic,,train
+127057145,3,other,fallback_synthetic,,train
+432445068,3,other,fallback_synthetic,,train
+456764581,3,other,fallback_synthetic,,val
+161313726,3,other,fallback_synthetic,,train
+398695782,3,other,fallback_synthetic,,test
+171707323,3,other,fallback_synthetic,,train
+246883598,3,other,fallback_synthetic,,test
+339753116,3,other,fallback_synthetic,,test
+387970715,3,other,fallback_synthetic,,test
+449824816,3,other,fallback_synthetic,,train
+117913934,3,other,fallback_synthetic,,train
+178573866,3,other,fallback_synthetic,,train
+212203447,3,other,fallback_synthetic,,train
+224129469,3,other,fallback_synthetic,,train
+499211143,3,other,fallback_synthetic,,train
+410961935,3,other,fallback_synthetic,,test
+228166890,3,other,fallback_synthetic,,train
+488730570,3,other,fallback_synthetic,,val
+299722794,3,other,fallback_synthetic,,train
+300296474,3,other,fallback_synthetic,,train
+273479538,3,other,fallback_synthetic,,test
+157559000,3,other,fallback_synthetic,,train
+473748993,3,other,fallback_synthetic,,val
+105574514,3,other,fallback_synthetic,,train
+169711412,3,other,fallback_synthetic,,test
+191862411,3,other,fallback_synthetic,,train
+152728887,3,other,fallback_synthetic,,train
+107184564,3,other,fallback_synthetic,,val
+371063469,3,other,fallback_synthetic,,val
+487723965,3,other,fallback_synthetic,,test
+148733001,3,other,fallback_synthetic,,train
+218614081,3,other,fallback_synthetic,,train
+302531972,3,other,fallback_synthetic,,train
+471000945,3,other,fallback_synthetic,,train
+377704974,3,other,fallback_synthetic,,train
+406475250,3,other,fallback_synthetic,,test
+332446643,3,other,fallback_synthetic,,test
+266814314,3,other,fallback_synthetic,,val
+179910260,3,other,fallback_synthetic,,val
+445725753,3,other,fallback_synthetic,,train
+421649810,3,other,fallback_synthetic,,val
+110040529,3,other,fallback_synthetic,,test
+386162851,3,other,fallback_synthetic,,train
+133755241,3,other,fallback_synthetic,,test
+395593601,3,other,fallback_synthetic,,test
+430381537,3,other,fallback_synthetic,,val
+152423100,3,other,fallback_synthetic,,train
+273534345,3,other,fallback_synthetic,,train
+149501521,3,other,fallback_synthetic,,test
+326912886,3,other,fallback_synthetic,,train
+471025020,3,other,fallback_synthetic,,val
+132347820,3,other,fallback_synthetic,,train
+259031277,3,other,fallback_synthetic,,val
+220379476,3,other,fallback_synthetic,,test
+152886682,3,other,fallback_synthetic,,val
+295433618,3,other,fallback_synthetic,,test
+303349033,3,other,fallback_synthetic,,train
+482249302,3,other,fallback_synthetic,,val
+308409095,3,other,fallback_synthetic,,train
+214578490,3,other,fallback_synthetic,,train
+484113779,3,other,fallback_synthetic,,train
+469923371,3,other,fallback_synthetic,,val
+299665910,3,other,fallback_synthetic,,train
+109943796,3,other,fallback_synthetic,,train
+338774443,3,other,fallback_synthetic,,train
+322079216,3,other,fallback_synthetic,,train
+159283373,3,other,fallback_synthetic,,train
+353590044,3,other,fallback_synthetic,,train
+436317428,3,other,fallback_synthetic,,train
+142358961,3,other,fallback_synthetic,,val
+389329054,3,other,fallback_synthetic,,train
+156135838,3,other,fallback_synthetic,,val
+399530507,3,other,fallback_synthetic,,train
+267645727,3,other,fallback_synthetic,,train
+102604412,3,other,fallback_synthetic,,train
+486492764,3,other,fallback_synthetic,,val
+166388151,3,other,fallback_synthetic,,train
+338417021,3,other,fallback_synthetic,,val
+172587291,3,other,fallback_synthetic,,train
+473209288,3,other,fallback_synthetic,,train
+395330216,3,other,fallback_synthetic,,test
+421744366,3,other,fallback_synthetic,,train
+286952640,3,other,fallback_synthetic,,train
+353720469,3,other,fallback_synthetic,,train
+413905379,3,other,fallback_synthetic,,train
+438791819,3,other,fallback_synthetic,,val
+107134713,3,other,fallback_synthetic,,train
+365424547,3,other,fallback_synthetic,,test
+143657598,3,other,fallback_synthetic,,val
+215172702,3,other,fallback_synthetic,,train
+431771445,3,other,fallback_synthetic,,train
+200205269,3,other,fallback_synthetic,,val
+418726835,3,other,fallback_synthetic,,train
+285203120,3,other,fallback_synthetic,,train
+193056296,3,other,fallback_synthetic,,train
+233697678,3,other,fallback_synthetic,,test
+312307836,3,other,fallback_synthetic,,train
+406058867,3,other,fallback_synthetic,,train
+342406328,3,other,fallback_synthetic,,train
+473289537,3,other,fallback_synthetic,,train
+447095581,3,other,fallback_synthetic,,train
+401341412,3,other,fallback_synthetic,,train
+341242862,3,other,fallback_synthetic,,train
+215942326,3,other,fallback_synthetic,,train
+265028627,3,other,fallback_synthetic,,train
+147557715,3,other,fallback_synthetic,,train
+249673617,3,other,fallback_synthetic,,train
+470588897,3,other,fallback_synthetic,,train
+270352834,3,other,fallback_synthetic,,train
+145491529,3,other,fallback_synthetic,,test
+360772410,3,other,fallback_synthetic,,test
+485045949,3,other,fallback_synthetic,,test
+446996252,3,other,fallback_synthetic,,train
+209630581,3,other,fallback_synthetic,,test
+281558752,3,other,fallback_synthetic,,test
+312406606,3,other,fallback_synthetic,,train
+199135825,3,other,fallback_synthetic,,val
+207476793,3,other,fallback_synthetic,,train
+194664945,3,other,fallback_synthetic,,val
+497832519,3,other,fallback_synthetic,,train
+436342549,3,other,fallback_synthetic,,train
+426627505,3,other,fallback_synthetic,,train
+483657383,3,other,fallback_synthetic,,train
+142111231,3,other,fallback_synthetic,,val
+452652974,3,other,fallback_synthetic,,train
+126623542,3,other,fallback_synthetic,,test
+290168405,3,other,fallback_synthetic,,train
+337773465,3,other,fallback_synthetic,,val
+243144434,3,other,fallback_synthetic,,test
+158469297,3,other,fallback_synthetic,,train
+176920532,3,other,fallback_synthetic,,train
+388512068,1,eclipsing_binary,manual_hardcoded,,train
+219654364,1,eclipsing_binary,manual_hardcoded,,train
+167248571,1,eclipsing_binary,manual_hardcoded,,train
+315471932,1,eclipsing_binary,manual_hardcoded,,test
+400153768,1,eclipsing_binary,manual_hardcoded,,train
+219114399,1,eclipsing_binary,manual_hardcoded,,train
+220459190,1,eclipsing_binary,manual_hardcoded,,train
+259962054,2,blend,manual_hardcoded,,train
+144700903,2,blend,manual_hardcoded,,train
+243185500,2,blend,manual_hardcoded,,train
+415969908,2,blend,manual_hardcoded,,test
+207468080,2,blend,manual_hardcoded,,train
+150428135,2,blend,manual_hardcoded,,train
+73540072,2,blend,manual_hardcoded,,train
+470171739,2,blend,manual_hardcoded,,train
+395393265,2,blend,manual_hardcoded,,train
+418255064,2,blend,manual_hardcoded,,test
+200322593,2,blend,manual_hardcoded,,train
+189231635,2,blend,manual_hardcoded,,val
+332558858,2,blend,manual_hardcoded,,train
+261867566,2,blend,manual_hardcoded,,train
+29344935,2,blend,manual_hardcoded,,val
+272086159,2,blend,manual_hardcoded,,train
+70899085,2,blend,manual_hardcoded,,test
+69356268,2,blend,manual_hardcoded,,train
+158483359,2,blend,manual_hardcoded,,train
+198485881,2,blend,manual_hardcoded,,train
+406667029,2,blend,manual_hardcoded,,train
+355703913,2,blend,manual_hardcoded,,train

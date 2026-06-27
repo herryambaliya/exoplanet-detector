@@ -1,0 +1,165 @@
+TIC_ID,label,class_name,source,name,split
+178155732,0,planet,NASA_Exoplanet_Archive,HR 858 d,test
+441420236,0,planet,NASA_Exoplanet_Archive,AU Mic c,test
+317548889,0,planet,NASA_Exoplanet_Archive,TOI-480 b,test
+256364928,0,planet,NASA_Exoplanet_Archive,HD 189733 b,test
+82308728,0,planet,NASA_Exoplanet_Archive,HD 97658 b,test
+436873727,0,planet,NASA_Exoplanet_Archive,TOI-4641 b,test
+55092869,0,planet,NASA_Exoplanet_Archive,KELT-11 b,test
+286923464,0,planet,NASA_Exoplanet_Archive,HD 118203 b,test
+16740101,0,planet,NASA_Exoplanet_Archive,KELT-9 b,test
+264678534,0,planet,NASA_Exoplanet_Archive,HD 207897 b,test
+437011608,0,planet,NASA_Exoplanet_Archive,TOI-5082.01,test
+347332255,0,planet,NASA_Exoplanet_Archive,HD 110067 c,test
+359271092,0,planet,NASA_Exoplanet_Archive,GJ 341 b,test
+69747919,0,planet,NASA_Exoplanet_Archive,K2-167 b,test
+441546821,0,planet,NASA_Exoplanet_Archive,HD 114082 b,test
+158241252,0,planet,NASA_Exoplanet_Archive,TOI-4443.01,test
+318707987,0,planet,NASA_Exoplanet_Archive,HD 3167 c,test
+37749396,0,planet,NASA_Exoplanet_Archive,TOI-260 b,test
+56815340,0,planet,NASA_Exoplanet_Archive,HD 106315 c,test
+350618622,0,planet,NASA_Exoplanet_Archive,TOI-201 b,test
+368435330,0,planet,NASA_Exoplanet_Archive,HD 93963 A c,test
+440887364,0,planet,NASA_Exoplanet_Archive,TOI-836.01,test
+286712787,0,planet,NASA_Exoplanet_Archive,TOI-5159 b,test
+350020859,0,planet,NASA_Exoplanet_Archive,HD 89345 b,test
+33692729,0,planet,NASA_Exoplanet_Archive,TOI-469.01,test
+318696424,0,planet,NASA_Exoplanet_Archive,WASP-38 b,test
+106402532,0,planet,NASA_Exoplanet_Archive,TOI-733 b,test
+248853232,0,planet,NASA_Exoplanet_Archive,WASP-69 b,test
+4646810,0,planet,NASA_Exoplanet_Archive,HD 15906 b,test
+120826158,0,planet,NASA_Exoplanet_Archive,TOI-4495 b,test
+142937186,0,planet,NASA_Exoplanet_Archive,TOI-2427 b,test
+293435336,0,planet,NASA_Exoplanet_Archive,WASP-76 b,test
+130924120,0,planet,NASA_Exoplanet_Archive,TOI-757 b,test
+248608315,0,planet,NASA_Exoplanet_Archive,HD 224018 d,test
+237222864,0,planet,NASA_Exoplanet_Archive,HIP 97166 b,test
+380887434,0,planet,NASA_Exoplanet_Archive,TOI-4527.01,test
+266980320,0,planet,NASA_Exoplanet_Archive,HD 219666 b,test
+26547036,0,planet,NASA_Exoplanet_Archive,TOI-2010 b,test
+207468071,0,planet,NASA_Exoplanet_Archive,TOI-1836 b,test
+73228647,0,planet,NASA_Exoplanet_Archive,HD 110113 b,test
+299799658,0,planet,NASA_Exoplanet_Archive,TOI-1062 b,test
+287156968,0,planet,NASA_Exoplanet_Archive,TOI-1230.01,test
+198588220,0,planet,NASA_Exoplanet_Archive,HAT-P-67 b,test
+50618703,0,planet,NASA_Exoplanet_Archive,TOI-544 b,test
+404421005,0,planet,NASA_Exoplanet_Archive,K2-277 b,test
+15692883,0,planet,NASA_Exoplanet_Archive,WASP-187 b,test
+306996324,0,planet,NASA_Exoplanet_Archive,TOI-776 b,test
+437242640,0,planet,NASA_Exoplanet_Archive,WASP-34 b,test
+40292751,0,planet,NASA_Exoplanet_Archive,TOI-5786 b,test
+188876052,0,planet,NASA_Exoplanet_Archive,HAT-P-8 b,test
+392476080,0,planet,NASA_Exoplanet_Archive,TOI-2109 b,test
+159418353,0,planet,NASA_Exoplanet_Archive,TOI-1739 b,test
+169081296,0,planet,NASA_Exoplanet_Archive,Kepler-96 b,test
+61098812,0,planet,NASA_Exoplanet_Archive,WASP-54 b,test
+278348461,0,planet,NASA_Exoplanet_Archive,HAT-P-34 b,test
+138168780,0,planet,NASA_Exoplanet_Archive,XO-6 b,test
+117414377,0,planet,NASA_Exoplanet_Archive,K2-376 b,test
+150151262,0,planet,NASA_Exoplanet_Archive,TOI-712 c,test
+408636441,0,planet,NASA_Exoplanet_Archive,TOI-1759 b,test
+305424003,0,planet,NASA_Exoplanet_Archive,TOI-907.01,test
+22529346,0,planet,NASA_Exoplanet_Archive,WASP-121 b,test
+342642208,0,planet,NASA_Exoplanet_Archive,TOI-2158 b,test
+124573851,0,planet,NASA_Exoplanet_Archive,TOI-669 b,test
+154089169,0,planet,NASA_Exoplanet_Archive,TOI-1174 b,test
+232967440,0,planet,NASA_Exoplanet_Archive,TOI-1173 b,test
+411608801,0,planet,NASA_Exoplanet_Archive,WASP-186 b,test
+229650439,0,planet,NASA_Exoplanet_Archive,TOI-1438 c,test
+126322519,0,planet,NASA_Exoplanet_Archive,TOI-5502 b,test
+243921117,0,planet,NASA_Exoplanet_Archive,WASP-80 b,test
+456945304,0,planet,NASA_Exoplanet_Archive,K2-370 b,test
+70803960,0,planet,NASA_Exoplanet_Archive,K2-290 b,test
+295541511,0,planet,NASA_Exoplanet_Archive,TOI-1117 b,test
+203189770,0,planet,NASA_Exoplanet_Archive,KELT-21 b,test
+135043332,0,planet,NASA_Exoplanet_Archive,K2-198 c,test
+406941612,0,planet,NASA_Exoplanet_Archive,TOI-912 b,test
+43578383,1,eclipsing_binary,fallback_hardcoded,,test
+159867591,1,eclipsing_binary,fallback_hardcoded,,test
+388599788,1,eclipsing_binary,fallback_hardcoded,,test
+243601013,1,eclipsing_binary,fallback_hardcoded,,test
+399954349,1,eclipsing_binary,fallback_hardcoded,,test
+120362128,1,eclipsing_binary,fallback_hardcoded,,test
+403224673,1,eclipsing_binary,fallback_hardcoded,,test
+388807515,2,blend,fallback_hardcoded,,test
+330598006,2,blend,fallback_hardcoded,,test
+141177454,2,blend,fallback_hardcoded,,test
+180587814,3,other,fallback_synthetic,,test
+386990910,3,other,fallback_synthetic,,test
+435899291,3,other,fallback_synthetic,,test
+300140766,3,other,fallback_synthetic,,test
+173019854,3,other,fallback_synthetic,,test
+455155937,3,other,fallback_synthetic,,test
+488279209,3,other,fallback_synthetic,,test
+286688401,3,other,fallback_synthetic,,test
+161715796,3,other,fallback_synthetic,,test
+397904862,3,other,fallback_synthetic,,test
+246657062,3,other,fallback_synthetic,,test
+487003892,3,other,fallback_synthetic,,test
+130537274,3,other,fallback_synthetic,,test
+418271990,3,other,fallback_synthetic,,test
+407137565,3,other,fallback_synthetic,,test
+254991351,3,other,fallback_synthetic,,test
+372998201,3,other,fallback_synthetic,,test
+283566310,3,other,fallback_synthetic,,test
+326149330,3,other,fallback_synthetic,,test
+193575794,3,other,fallback_synthetic,,test
+267183498,3,other,fallback_synthetic,,test
+109084829,3,other,fallback_synthetic,,test
+160924840,3,other,fallback_synthetic,,test
+298250348,3,other,fallback_synthetic,,test
+166485637,3,other,fallback_synthetic,,test
+252408490,3,other,fallback_synthetic,,test
+483877033,3,other,fallback_synthetic,,test
+463432276,3,other,fallback_synthetic,,test
+411500361,3,other,fallback_synthetic,,test
+279744600,3,other,fallback_synthetic,,test
+331687827,3,other,fallback_synthetic,,test
+350923536,3,other,fallback_synthetic,,test
+402995158,3,other,fallback_synthetic,,test
+414754583,3,other,fallback_synthetic,,test
+336366196,3,other,fallback_synthetic,,test
+267261965,3,other,fallback_synthetic,,test
+276467230,3,other,fallback_synthetic,,test
+475130581,3,other,fallback_synthetic,,test
+316897867,3,other,fallback_synthetic,,test
+481509145,3,other,fallback_synthetic,,test
+308268960,3,other,fallback_synthetic,,test
+458464308,3,other,fallback_synthetic,,test
+147549700,3,other,fallback_synthetic,,test
+390797845,3,other,fallback_synthetic,,test
+136371529,3,other,fallback_synthetic,,test
+399443207,3,other,fallback_synthetic,,test
+264087969,3,other,fallback_synthetic,,test
+251996580,3,other,fallback_synthetic,,test
+479092585,3,other,fallback_synthetic,,test
+398695782,3,other,fallback_synthetic,,test
+246883598,3,other,fallback_synthetic,,test
+339753116,3,other,fallback_synthetic,,test
+387970715,3,other,fallback_synthetic,,test
+410961935,3,other,fallback_synthetic,,test
+273479538,3,other,fallback_synthetic,,test
+169711412,3,other,fallback_synthetic,,test
+487723965,3,other,fallback_synthetic,,test
+406475250,3,other,fallback_synthetic,,test
+332446643,3,other,fallback_synthetic,,test
+110040529,3,other,fallback_synthetic,,test
+133755241,3,other,fallback_synthetic,,test
+395593601,3,other,fallback_synthetic,,test
+149501521,3,other,fallback_synthetic,,test
+220379476,3,other,fallback_synthetic,,test
+295433618,3,other,fallback_synthetic,,test
+395330216,3,other,fallback_synthetic,,test
+365424547,3,other,fallback_synthetic,,test
+233697678,3,other,fallback_synthetic,,test
+145491529,3,other,fallback_synthetic,,test
+360772410,3,other,fallback_synthetic,,test
+485045949,3,other,fallback_synthetic,,test
+209630581,3,other,fallback_synthetic,,test
+281558752,3,other,fallback_synthetic,,test
+126623542,3,other,fallback_synthetic,,test
+243144434,3,other,fallback_synthetic,,test
+315471932,1,eclipsing_binary,manual_hardcoded,,test
+415969908,2,blend,manual_hardcoded,,test
+418255064,2,blend,manual_hardcoded,,test
+70899085,2,blend,manual_hardcoded,,test

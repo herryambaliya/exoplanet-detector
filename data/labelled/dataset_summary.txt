@@ -1,0 +1,12 @@
+Dataset Summary
+Total: 1059
+Train: 741
+Val:   158
+Test:  160
+
+Classes:
+class_name
+planet              500
+other               500
+eclipsing_binary     43
+blend                16
