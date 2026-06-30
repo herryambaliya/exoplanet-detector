@@ -10,3 +10,8 @@ __pycache__/
 # Keep folder structure even though files are ignored
 !.gitkeep
 .ipynb_checkpoints/
+
+*.pkl
+ *data/kepler/
+*data/raw/failed_downloads.txt
+*results/quick_TIC*.png

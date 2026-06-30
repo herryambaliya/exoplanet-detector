@@ -5,14 +5,7 @@ _AI-enabled Detection of Exoplanets from Noisy Astronomical Light Curves_
 
 ---
 
-## Team
-
-| Role        | Member                                   |
-| ----------- | ---------------------------------------- |
-| Team Leader | [Name] — Data Engineering (M1)           |
-| Member 2    | [Name] — Signal Processing (M2)          |
-| Member 3    | [Name] — Machine Learning (M3)           |
-| Member 4    | [Name] — Validation & Visualization (M4) |
+## Team : Interstellar Innovators
 
 **College:** Gujarat Technological University
 
