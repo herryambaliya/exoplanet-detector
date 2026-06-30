@@ -7,7 +7,7 @@ _AI-enabled Detection of Exoplanets from Noisy Astronomical Light Curves_
 
 ## Team : Interstellar Innovators
 
-**College:** Gujarat Technological University
+**College:** Gujarat Technological University(Shree Swami Atmanand Saraswati Institute of Technology)
 
 ---
 
